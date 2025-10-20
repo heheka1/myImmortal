@@ -68,46 +68,66 @@
             <titlePart>2. Chapters 1 &amp; 2</titlePart>
          </docTitle>
          <!--for any sort of miss spellings/ slang that Tara does I am trying to mark only ones she uses frequently-->
-         <head>Chapters 1 &amp; 2 Chapter 1. AN: Special <w lemma ="thanks">fangz</w> (get it, coz Im <w lemma = "gothic">goffik</w>) 2 my gf (ew
-            not in that way) raven, bloodytearz666 4 helpin me wif <w lemma = "the">da</w> story and spelling. U <w lemma ="rock">rok!</w>
-            Justin ur da luv of my deprzzing life <w lemma = "you">u</w>rok 2! MCR ROX!</head>
+         <head>Chapters 1 &amp; 2 Chapter 1. AN: Special <w lemma="thanks">fangz</w> (get it, coz Im
+               <w lemma="gothic">goffik</w>) 2 my gf (ew not in that way) raven, bloodytearz666 4
+            helpin me wif <w lemma="the">da</w> story and spelling. U <w lemma="rock">rok!</w>
+            Justin ur da luv of my deprzzing life <w lemma="you">u</w>rok 2! MCR ROX!</head>
       </front>
       <body>
-         <p>Hi my name is Ebony Dark'ness Dementia Raven Way and I have long ebony black hair
-            (that's how I got my name) with purple streaks and red tips that reaches my mid-back and
-            icy blue eyes like limpid tears and a lot of people tell me I look like Amy Lee (AN: if
-            u don't know who she is get da hell out of here!). I'm not related to Gerard Way but I
-            wish I was because he's a major fucking hottie. I'm a vampire but my teeth are straight
-            and white. I have pale white skin. I'm also a witch, and I go to a magic school called
-            Hogwarts in England where I'm in the seventh year (I'm seventeen). I'm a goth (in case
-            you couldn't tell) and I wear mostly black. I love Hot Topic and I buy all my clothes
-            from there. For example today I was wearing a black corset with matching lace around it
-            and a black leather miniskirt, pink fishnets and black combat boots. I was wearing black
-            lipstick, white foundation, black eyeliner and red eye shadow. I was walking outside
-            Hogwarts. It was snowing and raining so there was no sun, which I was very happy about.
-            A lot of preps stared at me. I put up my middle finger at them.</p>
+         <p>Hi my name is 
+            <listPerson>
+               <person sex="f" age="17">
+                  <persName>
+                     <forename type="Tara"/>
+                     <roleName type="originalAuthor"/>
+                     <addName type="nickname">Ebony Dark'ness Dementia Raven Way</addName>
+                  </persName>
+               </person>
+            </listPerson> and I have long ebony black hair (that's how I got my name) with purple
+            streaks and red tips that reaches my mid-back and icy blue eyes like limpid tears and a
+            lot of people tell me I look like Amy Lee (AN: if u don't know who she is get da hell
+            out of here!). I'm not related to Gerard Way but I wish I was because he's a major
+            fucking hottie. I'm a vampire but my teeth are straight and white. I have pale white
+            skin. I'm also a witch, and I go to a magic school called Hogwarts in England where I'm
+            in the seventh year (I'm seventeen). I'm a goth (in case you couldn't tell) and I wear
+            mostly black. I love Hot Topic and I buy all my clothes from there. For example today I
+            was wearing a black corset with matching lace around it and a black leather miniskirt,
+            pink fishnets and black combat boots. I was wearing black lipstick, white foundation,
+            black eyeliner and red eye shadow. I was walking outside Hogwarts. It was snowing and
+            raining so there was no sun, which I was very happy about. A lot of preps stared at me.
+            I put up my middle finger at them.</p>
          <p> "Hey Ebony!" shouted a voice. I looked up. It was…. Draco Malfoy! "What's up Draco?" I
             asked. "Nothing." he said shyly. But then, I heard my friends call me and I had to go
             away. <note place="end">AN: IS it good? PLZ tell me fangz!</note></p>
          <p><note type="start">Chapter 2. AN: Fangz 2 bloodytearz666 4 helpin me wif da chapta! BTW
-               preps stop <w lemma = "insulting">flaming</w> ma story ok!</note> The next day I woke up in my bedroom. It was
-            snowing and raining again. I opened the door of my coffin and drank some blood from a
-            bottle I had. My coffin was black ebony and inside it was hot pink velvet with black
-            lace on the ends. I got out of my coffin and took of my giant MCR t-shirt which I used
-            for pajamas. Instead, I put on a black leather dress, a pentagram necklace, combat boots
-            and black fishnets on. I put on four pairs of earrings in my pierced ears, and put my
-            hair in a kind of messy bun. </p>
-         <p> My friend, Willow (AN: Raven dis is u!) woke up then and grinned at me. She flipped her
-            long waist-length raven black hair with pink streaks and opened her forest-green eyes.
-            She put on her Marilyn Manson t-shirt with a black mini, fishnets and pointy high-heeled
+               preps stop <w lemma="insulting">flaming</w> ma story ok!</note> The next day I woke
+            up in my bedroom. It was snowing and raining again. I opened the door of my coffin and
+            drank some blood from a bottle I had. My coffin was black ebony and inside it was hot
+            pink velvet with black lace on the ends. I got out of my coffin and took of my giant MCR
+            t-shirt which I used for pajamas. Instead, I put on a black leather dress, a pentagram
+            necklace, combat boots and black fishnets on. I put on four pairs of earrings in my
+            pierced ears, and put my hair in a kind of messy bun. </p>
+         <p> My friend, 
+            <listPerson>
+               <person sex="f" age="adolescence">
+                  <persName>
+                     <forename type="Raven"/>
+                     <roleName type="editor"/>
+                     <addName type="nickname">Willow</addName>
+                  </persName>
+               </person>
+            </listPerson> (AN: Raven dis is u!) woke up then and grinned at me. She flipped her long
+            waist-length raven black hair with pink streaks and opened her forest-green eyes. She
+            put on her Marilyn Manson t-shirt with a black mini, fishnets and pointy high-heeled
             boots. We put on our makeup (black lipstick white foundation and black eyeliner.) </p>
-         <p> "OMFG, I saw you talking to Draco Malfoy yesterday!" she said excitedly. "Yeah? So?" I
-            said, blushing. "Do you like Draco?" she asked as we went out of the Slytherin common
-            room and into the Great Hall. "No I so fucking don't!" I shouted. "Yeah right!" she
-            exclaimed. Just then, Draco walked up to me. "Hi." he said. "Hi." I replied flirtily.
-            "Guess what." he said. "What?" I asked. "Well, Good Charlotte are having a concert in
-            Hogsmeade." he told me. "Oh. My. Fucking. God!" I screamed. I love GC. They are my
-            favorite band, besides MCR. "Well…. do you want to go with me?" he asked. I gasped. </p>
+         <p> "OMFG, I saw you talking to <name type="character">Draco Malfoy</name> yesterday!" she
+            said excitedly. "Yeah? So?" I said, blushing. "Do you like Draco?" she asked as we went
+            out of the Slytherin common room and into the Great Hall. "No I so fucking don't!" I
+            shouted. "Yeah right!" she exclaimed. Just then, Draco walked up to me. "Hi." he said.
+            "Hi." I replied flirtily. "Guess what." he said. "What?" I asked. "Well, Good Charlotte
+            are having a concert in Hogsmeade." he told me. "Oh. My. Fucking. God!" I screamed. I
+            love GC. They are my favorite band, besides MCR. "Well…. do you want to go with me?" he
+            asked. I gasped. </p>
          <div type="part"/>
 
       </body>
