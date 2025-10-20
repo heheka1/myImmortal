@@ -15,10 +15,12 @@
             <p>Information about the source</p>
          </sourceDesc>
       </fileDesc>
+     <profileDesc>
+        <abstract>
+           <listPerson>
+              
+           </listPerson>
+        </abstract>
+     </profileDesc>
   </teiHeader>
-  <text>
-      <body>
-         <p>Some text here.</p>
-      </body>
-  </text>
 </TEI>
