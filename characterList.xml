@@ -54,7 +54,7 @@
               </person>
            </listPerson>
            <listPerson>
-              <person>
+              <person sex="F" age="17">
                  <persName>
                     <forename type="Hermione"/>
                     <surname type="Granger"/>
