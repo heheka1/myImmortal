@@ -18,7 +18,46 @@
      <profileDesc>
         <abstract>
            <listPerson>
-              
+              <person sex="F" age="17">
+                 <persName>
+                    <forename type="Tara"/>
+                    <surname type="Gilesbie"/>
+                    <roleName type="author"/>
+                    <addName type="nickname">Ebony Dark'ness Dementia Raven Way</addName>
+                    <note type="misspellings">Enoby, Enobby, Eboby, Eboney, Ebondy, TaEbory, Tata</note>
+                 </persName>
+              </person>
+           </listPerson>
+           <listPerson>
+              <person sex="F" age="17">
+                 <persName>
+                    <forename type="Raven"/>
+                    <roleName type="editor"/>
+                    <addName type="nickname">Willow</addName>
+                    <note type="misspelling"></note>
+                 </persName>
+              </person>
+           </listPerson>
+           <listPerson>
+              <person sex="M" age="17">
+                 <persName>
+                    <forename type="Draco"/>
+                    <surname type="Malfoy"/>
+                    <roleName type="character"/>
+                    <note type="misspelling">Drako, Drake, Darko, Drico, </note>
+                 </persName>
+              </person>
+           </listPerson>
+           <listPerson>
+              <person>
+                 <persName>
+                    <forename type="Hermione"/>
+                    <surname type="Granger"/>
+                    <roleName type="character"/>
+                    <addName type="nickname">B'Loody Mary Smith</addName>
+                    <note type="misspelling">Boldy Mary, </note>
+                 </persName>
+              </person>
            </listPerson>
         </abstract>
      </profileDesc>
