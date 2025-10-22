@@ -3,16 +3,21 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Title</title>
+            <title>My Immortal</title>
+            <author><addName>Tara Gilesbie</addName></author>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <p>Originally Published on Fanfiction.net on <date when="2007-03-03">March 3rd,
+                  2007</date> It was then removed by Fanfiction.net on <date when="2008-10">October
+                     2008</date>for a reason that has never been confirmed. It has since been
+               reuploaded onto the site by mutiple people. The upload that we are using was
+               published on <date when="2011-03-26">March 26, 2011</date></p>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>born digital</p>
          </sourceDesc>
       </fileDesc>
      <profileDesc>
@@ -62,4 +67,5 @@
         </abstract>
      </profileDesc>
   </teiHeader>
+   <text></text>
 </TEI>
