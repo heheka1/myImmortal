@@ -25,8 +25,8 @@
            <listPerson>
               <person sex="F" age="17">
                  <persName>
-                    <forename type="Tara"/>
-                    <surname type="Gilesbie"/>
+                    <forename role="real" type="Tara"/>
+                    <surname role="real" type="Gilesbie"/>
                     <note type="info">This is allegedy her name, no one actually knows who wrote the original story</note>
                     <roleName type="author"/>
                     <addName type="nickname">Ebony Dark'ness Dementia Raven Way</addName>
@@ -37,7 +37,7 @@
            <listPerson>
               <person sex="F" age="17">
                  <persName>
-                    <forename type="Raven"/>
+                    <forename role="real" type="Raven"/>
                     <roleName type="editor"/>
                     <addName type="nickname">Willow</addName>
                     <note type="misspelling"></note>
@@ -47,8 +47,8 @@
            <listPerson>
               <person sex="M" age="17">
                  <persName>
-                    <forename type="Draco"/>
-                    <surname type="Malfoy"/>
+                    <forename role="real" type="Draco"/>
+                    <surname role="real" type="Malfoy"/>
                     <roleName type="character"/>
                     <note type="misspelling">Drako, Drake, Darko, Drico, </note>
                  </persName>
@@ -57,11 +57,21 @@
            <listPerson>
               <person sex="F" age="17">
                  <persName>
-                    <forename type="Hermione"/>
-                    <surname type="Granger"/>
+                    <forename role="real" type="Hermione"/>
+                    <surname role="real" type="Granger"/>
                     <roleName type="character"/>
                     <addName type="nickname">B'Loody Mary Smith</addName>
                     <note type="misspelling">Boldy Mary, </note>
+                 </persName>
+              </person>
+           </listPerson>
+           <listPerson>
+              <person>
+                 <persName>
+                    <forename role="real" type="Ron"/>
+                    <surname role="real" type="Weasley"/>
+                    <addName type="nickname">Diabolo</addName>
+                    <note type="info">I think she ment Diablo, but it is consistantly Diabolo</note>
                  </persName>
               </person>
            </listPerson>
