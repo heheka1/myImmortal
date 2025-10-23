@@ -12,7 +12,7 @@
          <publicationStmt>
             <p>Originally Published on Fanfiction.net on <date when="2007-03-03">March 3rd,
                   2007</date> It was then removed by Fanfiction.net on <date when="2008-10">October
-                     2008</date>for a reason that has never been confirmed. It has since been
+                  2008</date>for a reason that has never been confirmed. It has since been
                reuploaded onto the site by mutiple people. The upload that we are using was
                published on <date when="2011-03-26">March 26, 2011</date></p>
          </publicationStmt>
@@ -20,68 +20,67 @@
             <p>born digital</p>
          </sourceDesc>
       </fileDesc>
-     <profileDesc>
-        <abstract>
-           <listPerson>
-              <person sex="F" age="17">
-                 <persName>
-                    <forename role="real" type="Tara"/>
-                    <surname role="real" type="Gilesbie"/>
-                    <note type="info">This is allegedy her name, no one actually knows who wrote the original story</note>
-                    <roleName type="author"/>
-                    <addName type="nickname">Ebony Dark'ness Dementia Raven Way</addName>
-                    <note type="misspellings">Enoby, Enobby, Eboby, Eboney, Ebondy, TaEbory, Tata</note>
-                 </persName>
-              </person>
-           </listPerson>
-           <listPerson>
-              <person sex="F" age="17">
-                 <persName>
-                    <forename role="real" type="Raven"/>
-                    <roleName type="editor"/>
-                    <addName type="nickname">Willow</addName>
-                    <note type="misspelling"></note>
-                 </persName>
-              </person>
-           </listPerson>
-           <listPerson>
-              <person sex="M" age="17">
-                 <persName>
-                    <forename role="real" type="Draco"/>
-                    <surname role="real" type="Malfoy"/>
-                    <roleName type="character"/>
-                    <note type="misspelling">Drako, Drake, Darko, Drico, </note>
-                 </persName>
-              </person>
-           </listPerson>
-           <listPerson>
-              <person sex="F" age="17">
-                 <persName>
-                    <forename role="real" type="Hermione"/>
-                    <surname role="real" type="Granger"/>
-                    <roleName type="character"/>
-                    <addName type="nickname">B'Loody Mary Smith</addName>
-                    <note type="misspelling">Boldy Mary, </note>
-                 </persName>
-              </person>
-           </listPerson>
-           <listPerson>
-              <person>
-                 <persName>
-                    <forename role="real" type="Ron"/>
-                    <surname role="real" type="Weasley"/>
-                    <addName type="nickname">Diabolo</addName>
-                    <note type="info">I think she ment Diablo, but it is consistantly Diabolo</note>
-                 </persName>
-              </person>
-           </listPerson>
-        </abstract>
-     </profileDesc>
-  </teiHeader>
+   </teiHeader>
    <text>
-     <body>
-        <p>hm</p>
-     </body>
-      
+      <body>
+         <div>
+            <listPerson>
+               <person sex="F" age="17">
+                  <persName>
+                     <forename role="real" type="Tara"/>
+                     <surname role="real" type="Gilesbie"/>
+                     <note type="info">This is allegedy her name, no one actually knows who wrote
+                        the original story</note>
+                     <roleName type="author"/>
+                     <addName type="nickname">Ebony Dark'ness Dementia Raven Way</addName>
+                     <note type="misspellings">Enoby, Enobby, Eboby, Eboney, Ebondy, TaEbory,
+                        Tata</note>
+                  </persName>
+               </person>
+            </listPerson>
+            <listPerson>
+               <person sex="F" age="17">
+                  <persName>
+                     <forename role="real" type="Raven"/>
+                     <roleName type="editor"/>
+                     <addName type="nickname">Willow</addName>
+                     <note type="misspelling"/>
+                  </persName>
+               </person>
+            </listPerson>
+            <listPerson>
+               <person sex="M" age="17">
+                  <persName>
+                     <forename role="real" type="Draco"/>
+                     <surname role="real" type="Malfoy"/>
+                     <roleName type="character"/>
+                     <note type="misspelling">Drako, Drake, Darko, Drico, </note>
+                  </persName>
+               </person>
+            </listPerson>
+            <listPerson>
+               <person sex="F" age="17">
+                  <persName>
+                     <forename role="real" type="Hermione"/>
+                     <surname role="real" type="Granger"/>
+                     <roleName type="character"/>
+                     <addName type="nickname">B'Loody Mary Smith</addName>
+                     <note type="misspelling">Boldy Mary, </note>
+                  </persName>
+               </person>
+            </listPerson>
+            <listPerson>
+               <person>
+                  <persName>
+                     <forename role="real" type="Ron"/>
+                     <surname role="real" type="Weasley"/>
+                     <addName type="nickname">Diabolo</addName>
+                     <note type="info">I think she ment Diablo, but it is consistantly
+                        Diabolo</note>
+                  </persName>
+               </person>
+            </listPerson>
+         </div>
+      </body>
    </text>
 </TEI>
