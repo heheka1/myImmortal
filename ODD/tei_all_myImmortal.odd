@@ -59,26 +59,12 @@
       <schemaSpec ident="tei_all_myImmortal" start="TEI teiCorpus" prefix="tei_" targetLang="en" docLang="en">
         <moduleRef n="01" key="tei"/>
         <moduleRef n="02" key="header"/>
-        <moduleRef n="03" key="core"/>
+        <moduleRef n="03" key="core" include="date editor lg l milestone name rs note p ptr ref resp respStmt said soCalled title"/>
         <moduleRef n="04" key="textstructure"/>
-        
-        
-        
         <moduleRef n="08" key="spoken"/>
-        <moduleRef n="09" key="cmc"/>
-        <moduleRef n="18" key="analysis"/>
-        
-        
-        
-        <moduleRef n="13" key="textcrit"/>
-        <moduleRef n="14" key="namesdates"/>
-        
-        <moduleRef n="16" key="corpus"/>
+        <moduleRef n="18" key="analysis" include="w"/>
         <moduleRef n="17" key="linking"/>
-        
-        
         <moduleRef n="22" key="certainty"/>
-        <moduleRef n="23" key="tagdocs"/>
       </schemaSpec>
     </body>
   </text>
