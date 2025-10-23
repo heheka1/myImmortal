@@ -25,7 +25,7 @@
       <body>
          <div>
             <listPerson>
-               <person sex="F" age="17">
+               <person xml:id="TG" sex="F" age="17">
                   <persName>
                      <forename role="real" type="Tara"/>
                      <surname role="real" type="Gilesbie"/>
@@ -77,6 +77,15 @@
                      <addName type="nickname">Diabolo</addName>
                      <note type="info">I think she ment Diablo, but it is consistantly
                         Diabolo</note>
+                  </persName>
+               </person>
+            </listPerson>
+            <listPerson>
+               <person>
+                  <persName>
+                     <forename role="real" type=""/>
+                     <surename role="real" type=""/>
+                     <addName type="nickname"></addName>
                   </persName>
                </person>
             </listPerson>
