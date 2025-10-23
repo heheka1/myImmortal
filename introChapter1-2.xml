@@ -70,7 +70,7 @@
             <titlePart>2. Chapters 1 &amp; 2</titlePart>
          </docTitle>
          <!--for any sort of miss spellings/ slang that Tara does I am trying to mark only ones she uses frequently-->
-         <head>Chapters 1 &amp; 2 Chapter 1. AN: Special <w corresp="thanks">fangz</w> (get it, coz
+         <head>Chapters 1 &amp; 2 Chapter 1. AN: Special <w norm="thanks">fangz</w> (get it, coz
             Im <w corresp="gothic">goffik</w>) <w corresp="to">2</w> my gf (ew not in that way)
             raven, bloodytearz666 <w corresp="for">4</w> helpin me wif <w corresp="the">da</w> story
             and spelling. <w corresp="you">U </w><w corresp="rock">rok!</w> Justin ur da luv of my
@@ -78,7 +78,7 @@
             ROX!</head>
       </front>
       <body>
-         <p>Hi my name is Ebony Dark'ness Dementia Raven Way and I have long ebony black hair (that's how I got my name) with purple streaks and red tips 
+         <p>Hi my name is <name ref="#...">Ebony Dark'ness Dementia Raven Way</name> and I have long ebony black hair (that's how I got my name) with purple streaks and red tips 
             that reaches my mid-back and icy blue eyes like limpid tears and a
             lot of people tell me I look like Amy Lee <note place="parenthesis">(AN: if u don't know who she is get da hell
             out of here!)</note>. I'm not related to Gerard Way but I wish I was because he's a major
