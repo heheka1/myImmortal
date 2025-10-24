@@ -39,7 +39,7 @@
                </person>
             </listPerson>
             <listPerson>
-               <person sex="F" age="17">
+               <person xml:id="R" sex="F" age="17">
                   <persName>
                      <forename role="real" type="Raven"/>
                      <roleName type="editor"/>
@@ -49,7 +49,7 @@
                </person>
             </listPerson>
             <listPerson>
-               <person sex="M" age="17">
+               <person xml:id="DM" sex="M" age="17">
                   <persName>
                      <forename role="real" type="Draco"/>
                      <surname role="real" type="Malfoy"/>
@@ -59,7 +59,7 @@
                </person>
             </listPerson>
             <listPerson>
-               <person sex="F" age="17">
+               <person xml:id="HG" sex="F" age="17">
                   <persName>
                      <forename role="real" type="Hermione"/>
                      <surname role="real" type="Granger"/>
@@ -70,7 +70,7 @@
                </person>
             </listPerson>
             <listPerson>
-               <person>
+               <person xml:id="RW" sex="M" age="17">
                   <persName>
                      <forename role="real" type="Ron"/>
                      <surname role="real" type="Weasley"/>
@@ -81,11 +81,11 @@
                </person>
             </listPerson>
             <listPerson>
-               <person>
+               <person xml:id="GW" sex="F" age="16">
                   <persName>
-                     <forename role="real" type=""/>
-                     <surename role="real" type=""/>
-                     <addName type="nickname"></addName>
+                     <forename role="real" type="Ginny"/>
+                     <surname role="real" type="Weasley"/>
+                     <addName type="nickname">Darkness</addName>
                   </persName>
                </person>
             </listPerson>
