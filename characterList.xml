@@ -33,8 +33,9 @@
                         the original story</note>
                      <roleName type="author"/>
                      <addName type="nickname">Ebony Dark'ness Dementia Raven Way</addName>
-                     <note type="misspellings">Enoby, Enobby, Eboby, Eboney, Ebondy, TaEbory,
-                        Tata</note>
+                     <note type="misspellings">Eboby, EBONDY, Ebory, Egogy, Enobby, ENOBY, Enoby
+                        Way, Enony Dark'ness Dementia Raven Way, Enopby, Evony, Ibony, TaEbory,
+                        Tara, Tata</note>
                   </persName>
                </person>
             </listPerson>
@@ -54,7 +55,7 @@
                      <forename role="real" type="Draco"/>
                      <surname role="real" type="Malfoy"/>
                      <roleName type="character"/>
-                     <note type="misspelling">Drako, Drake, Darko, Drico, </note>
+                     <note type="misspelling">Darko, Dracko, Drago, Drake, Drako</note>
                   </persName>
                </person>
             </listPerson>
@@ -65,7 +66,8 @@
                      <surname role="real" type="Granger"/>
                      <roleName type="character"/>
                      <addName type="nickname">B'Loody Mary Smith</addName>
-                     <note type="misspelling">Boldy Mary, </note>
+                     <note type="misspelling">B'lody Mary, B'Loody Mairy, B'loody Mair, B'loody
+                        Mart, Blody Gothik Rose 666, Boldy Mary</note>
                   </persName>
                </person>
             </listPerson>
@@ -86,6 +88,17 @@
                      <forename role="real" type="Ginny"/>
                      <surname role="real" type="Weasley"/>
                      <addName type="nickname">Darkness</addName>
+                     <note type="misspelling">Jenny</note>
+                  </persName>
+               </person>
+            </listPerson>
+            <listPerson>
+               <person xml:id="RH" sex="M" age="Adult">
+                  <persName>
+                     <forename role="real" type="Rubeus"/>
+                     <surname role="real" type="Hagrid"/>
+                     <note type="misspelling">HAHRID, Hairgrid, Hargid, Hargird, Hargirid, Hargrid,
+                        HARGRIF</note>
                   </persName>
                </person>
             </listPerson>
