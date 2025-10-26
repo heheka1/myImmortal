@@ -1,0 +1,13 @@
+body {
+    background: DarkRed;
+    font-family: "Lucida Console", "Courier New", monospace;
+   
+    }
+ 
+section {
+ background: RosyBrown;
+ width: 90%;
+ margin: auto;
+ padding: 1em;
+
+}
