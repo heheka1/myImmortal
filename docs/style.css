@@ -4,7 +4,10 @@ body {
     font-family: "Lucida Console", "Courier New", monospace;
     animation: moveIt 10s linear infinite;
 }
-
+@keyframes moveIt {
+  from {background-position: bottom left;}
+  to {background-position: top right;}
+}
 section {
     background: RosyBrown;
     width: 90%;
