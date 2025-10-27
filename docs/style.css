@@ -2,13 +2,13 @@ body {
     background: DarkRed;
     background-image: url("coffin2.png");
     font-family: "Lucida Console", "Courier New", monospace;
-   
-    }
- 
+    animation: moveIt 10s linear infinite;
+}
+
 section {
- background: RosyBrown;
- width: 90%;
- margin: auto;
- padding: 1em;
+    background: RosyBrown;
+    width: 90%;
+    margin: auto;
+    padding: 1em;
 
 }
