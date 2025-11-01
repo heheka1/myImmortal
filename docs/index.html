@@ -1,14 +1,42 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="style.css"/>
         <title>Fanfiction</title>
         <body>
             <section>
-                <h1>Future wepage for the My Immortal project</h1>
-            <link rel="stylesheet" href="style.css"/>
-    <a href="https://www.fanfiction.net/s/6829556/2/My-Immortal/">My Immortal</a>
-       <p></p>
+                <h1>My Immortal Project</h1>
+                <h2>What is My Immortal?</h2>
+                <p>"My Immortal is a Harry Potter-based fan fiction serially published on FanFiction.net between 2006 and 2007. 
+                    The story centers on a non-canonical female vampire character named "Ebony Dark'ness Dementia Raven Way" 
+                    and her relationships with the characters of the Harry Potter series, particularly her romantic relationship 
+                    with Draco Malfoy, culminating in her travelling back in time to defeat the main antagonist of the series, 
+                    ord Voldemort. The work takes its name from the song "My Immortal" by Evanescence. 
+                    My Immortal is popularly regarded as one of the worst works of fan fiction ever written. 
+                    Since the work's publication, it has gained infamy for its numerous grammar and spelling errors, 
+                    plot inconsistencies and complete disregard for the original Harry Potter source material. 
+                    The story has been speculated to be a hoax designed to fool and troll readers or to satirize fan fiction, 
+                    but others consider the work and the alleged online presence of the author too elaborate to fake effectively. 
+                    Despite this, the series has also inspired multiple derivative works, including a YouTube web series, 
+                    and is viewed with nostalgia for adolescent fan life. " -Wikipedia. You can find the version
+                    of My Immortal we used for the project <a href="https://www.fanfiction.net/s/6829556/2/My-Immortal/">here</a> </p>
             </section>
+            <section>
+                <h2>Our Mission</h2>
+     <p>Our mission is to analyze the word choice, mispellings, and slang of the fanfiction. We have done this by marking it up with XML through following
+     the TEI guidelines. </p>
+                <h2>Markup Stratedgy</h2>
+                <h3>Unique Wording</h3>
+                <p>When marking up My Immortal, we kept our eye out for specific things. Whenever we found slang, or a word that was misspelled,
+                we would mark it with the "word" (w) tag. We then specified the proper way of spelling that word by adding the attribute "norm"
+                inside the "word" tag (w norm="*correct spelling of the word*").</p>
+                <h3>Characters</h3>
+                <p>We also kept track of the characters within the story. We did this in various different ways. 
+                    One way was by creating a XML id for each character, so whenever we found the character mentioned in the story, we would tag them with
+                their unique id. In addition, whenever there was dialogue, we would mark who was speaking with the tag "said" and then use the attribute "who" 
+                to indicate the speaker (said who"*person's name*"). We also created a character list that maps out all the characters mentioned, any nicknames 
+                they have in the story, and mispellings of their names.</p>
+            </section> 
         </body>
    
 </html>
