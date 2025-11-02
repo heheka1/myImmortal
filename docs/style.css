@@ -10,8 +10,17 @@ body {
 }
 section {
     background: PaleVioletRed;
-    width: 90%;
+    width: 80%;
     margin: auto;
     padding: 1em;
 
 }
+img#wTag.png {
+width:200px;
+ height:auto  
+}   
+   
+img#saidTag.png {
+width:10%;
+ height:auto  
+}   

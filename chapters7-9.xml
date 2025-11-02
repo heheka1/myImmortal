@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -26,54 +27,54 @@
         <head place="top">Re-poster's Note: I also forgot to mention that you should read some of the commentaries people write here, they're hilarious!
            Chapter 7. Bring me <w norm="to">2</w> life. 
            AN: <w norm="well">wel</w> ok >u guyz im only writting dis cuz I got 5 god reviuws. 
-           n BTW I wont <w norm="write">=rite</w> da <w norm="next">nxt</w> chapter til I git TIN god vons! STO FLAMING OR ILL REPORT U! 
+           n BTW I wont <w norm="write">=rite</w> da <w norm="next">nxt</w> chapter til I <w norm="get">git</w> <w norm="ten">TIN</w> god vons! STO FLAMING OR ILL REPORT U! 
            Evony isn't a Marie Sue ok she isn't perfect SHES A SATANITS! n she has problemz shes depressed 4 godz sake!</head>
      </front>
       <body>
-         <p>Draco and I held our pale white hands with black nail polish as we went upstairs. I was wearing red Satanist sings on 
-            my nails in red nail polish (AN: c doez dat sound lik a Maru Sue 2 u?). I waved to Vampire. 
+         <p><name ref="DM">Draco</name> <rs type="fashion">and I held our pale white hands with black nail polish as we went upstairs. I was wearing red Satanist sings on 
+               my nails in red nail polish (AN: c doez dat sound lik a Maru Sue 2 u?).</rs> I waved to <name ref="HP">Vampire</name>. 
             Dark misery was in his depressed eyes. I guess he was jealous of me that I was going out with Draco. 
             Anyway, I went upstairs excitedly with Draco. We went into his room and locked the door. Then…</p>
          
          <p>We started frenching passively and we took off each others clothes enthusiastically. He felt me up before I took 
             of my top. Then I took off my black leather bra and he took off his pants. 
-            We went on the bed and started making out naked and then he put his boy's thingy in mine and we HAD SEX. (c is dat stupid?)</p>
+            We went on the bed and started making out naked and then he put his boy's thingy in mine and we HAD SEX. (<w norm="see">c</w> is dat stupid?)</p>
          
-         <p>"Oh Draco, Draco!" I screamed while getting an orgasm when all of a sudden I saw a tattoo I had never seen before on 
+         <p><said who="Ebony">Oh Draco, Draco!</said> I screamed while getting an orgasm when all of a sudden I saw a tattoo I had never seen before on 
             Draco's arm. It was a black heart with an arrow through it. On it in bloody gothic writing were the words… Vampire!</p>
          <p>I was so angry.</p>
-         <p>"You bastard!" I shouted angrily, jumping out of the bed.</p>
+         <p><said who="Ebony">You bastard!</said> I shouted angrily, jumping out of the bed.</p>
          
-         <p>"No! No! But you don't understand!" Draco pleaded. But I knew too much.</p>
+         <p><said who="Draco">No! No! But you don't understand!</said> Draco pleaded. But I knew too much.</p>
          
-         <p>"No, you fucking idiot!" I shouted. "You probably have AIDs anyway!"</p>
+         <p><said who="Ebony">No, you fucking idiot!</said> I shouted. <said who="Ebony">You probably have AIDs anyway!</said></p>
          
          <p>I put on my clothes all huffily and then stomped out. Draco ran out even though he was naked. 
             He had a really big you-know-what but I was too mad to care. I stomped out and did so until I was in Vampire's 
-            classroom where he was having a lesson with Professor Snape and some other people.</p>
-         <p>"VAMPIRE POTTER, YOU MOTHERFUCKER!" I yelled.</p>
+            classroom where he was having a lesson with Professor <name ref="SS">Snape</name> and some other people.</p>
+         <p><said who="Ebony">VAMPIRE POTTER, YOU MOTHERFUCKER!</said> I yelled.</p>
       </body>
   </text>
    <text>
       <body>
  <p>      
  <note place="start"><p>Chapter 8</p>
- <p>AN: stop flassing ok! if u do den u r a prep!</p></note> </p>
+    <p>AN: stop <w norm="flaming">flassing</w> ok! if u do den u r a prep!</p></note> </p>
          
 <p>Everyone in the class stared at me and then Draco came into the room even though he was 
    naked and started begging me to take him back.
 </p>     
-<p>"Ebony, it's not what you think!" Draco screamed sadly.</p>        
-         <p>My friend B'loody Mary Smith smiled at me understatedly. She flipped her long waste-length gothic black hair and 
+         <p><said who="Draco">Ebony, it's not what you think!</said> Draco screamed sadly.</p>        
+         <p>My friend <name ref="HG">B'loody Mary Smith</name> smiled at me understatedly. <rs type="fashion">She flipped her long waste-length gothic black hair and 
             opened her crimson eyes like blood that she was wearing contact lenses on. She had pale white skin that she was 
-            wearing white makeup on. Hermione was kidnapped when she was born. Her real parents are vampires and one of them 
+            wearing white makeup on.</rs> Hermione was kidnapped when she was born. Her real parents are vampires and one of them 
             is a witch but Voldemort killed her mother and her father committed suicide because he was depressed about it. 
             She still has nightmares about it and she is very haunted and depressed. It also turns out her real last name 
             is Smith and not Granger. (Since she has converted to Satanism she is in Slytherin now not Griffindoor. )</p>
          
-         <p>"What is it that you desire, you ridiculous dimwit!" Snape demeaned angrily in his cold voice but I ignored him.</p>
+         <p><said who="Snape">What is it that you desire, you ridiculous dimwit!</said> Snape demeaned angrily in his cold voice but I ignored him.</p>
          
-         <p>"Vampire, I can't believe you cheated on me with Draco!" I shouted at him.</p>
+         <p><said who="Ebony">Vampire, I can't believe you cheated on me with Draco!</said> I shouted at him.</p>
          
          <p>Everyone gasped.</p>
          
@@ -81,10 +82,10 @@
             he broke my heart. He dumped me because he liked Britney, a stupid preppy fucker. We were just good friends now.
             He had gone through horrible problems, and now he was gothic. (Haha, like I would hang out with a prep.)</p>
          
-         <p>"But I'm not going out with Draco anymore!" said Vampire.</p>
+         <p><said who="Vampire">But I'm not going out with Draco anymore!</said> said Vampire.</p>
          
-         <p>"Yeah fucking right! Fuck off, you bastard!" I screamed. I ran out of the room and into the Forbidden Forest where 
-            I had lost my virility to Draco and then I started to bust into tears.</p>
+         <p><said who="Ebony">Yeah fucking right! Fuck off, you bastard!</said> I screamed. I ran out of the room and into the Forbidden Forest where 
+            I had lost my <w norm="virginity">virility</w> to Draco and then I started to <w norm="burst">bust</w> into tears.</p>
       </body>    
    </text>
    <text>
