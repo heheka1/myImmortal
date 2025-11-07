@@ -23,7 +23,7 @@
    </teiHeader>
    <text>
       <body>
-         <div>
+         <div type="students">
             <listPerson>
                <person xml:id="TG" sex="F" age="17">
                   <persName>
@@ -64,6 +64,7 @@
                   <persName>
                      <forename role="real" type="Harry"/>
                      <surname role="real" type="Potter"/>
+                     <roleName type="character"/>
                      <addName type="nickname">Vampire</addName>
                      <note type="misspelling">Vampir, Vampira, Vampure, Vrompire</note>
                   </persName>
@@ -86,6 +87,7 @@
                   <persName>
                      <forename role="real" type="Ron"/>
                      <surname role="real" type="Weasley"/>
+                     <roleName type="character"/>
                      <addName type="nickname">Diabolo</addName>
                      <note type="info">I think she ment Diablo, but it is consistantly
                         Diabolo</note>
@@ -97,6 +99,7 @@
                   <persName>
                      <forename role="real" type="Ginny"/>
                      <surname role="real" type="Weasley"/>
+                     <roleName type="character"/>
                      <addName type="nickname">Darkness</addName>
                      <note type="misspelling">Jenny</note>
                   </persName>
@@ -107,8 +110,62 @@
                   <persName>
                      <forename role="real" type="Rubeus"/>
                      <surname role="real" type="Hagrid"/>
+                     <roleName type="character"/>
                      <note type="misspelling">HAHRID, Hairgrid, Hargid, Hargird, Hargirid, Hargrid,
                         HARGRIF</note>
+                  </persName>
+               </person>
+            </listPerson>
+            <listPerson>
+               <person xml:id="BS" sex="F" age="Adolescent">
+                  <persName>
+                     <forename role="real" type="Britney"/>
+                     <surname role="real" type="Spears"/>
+                     <roleName type="character"/>
+                  </persName>
+               </person>
+            </listPerson>
+            <listPerson>
+               <person xml:id="NL" sex="M" age="17">
+                  <persName>
+                     <forename role="real" type="Neville"/>
+                     <surname role="real" type="Longbottom"/>
+                     <roleName type="character"/>
+                     <addName type="nickname">Dracula</addName>
+                     <note type="misspelling">Dracola, Drocula, Navel</note>
+                  </persName>
+               </person>
+            </listPerson>
+            <listPerson>
+               <person xml:id="FW" sex="M" age="Adult">
+                  <persName>
+                     <forename role="real" type="Fred"/>
+                     <surname role="real" type="Weasley"/>
+                     <roleName type="character"/>
+                     <addName type="nickname">Crab</addName>
+                     <note type="misspelling">Crabbe, Fred</note>
+                  </persName>
+               </person>
+            </listPerson>
+            <listPerson>
+               <person xml:id="GeW" sex="M" age="Adult">
+                  <persName>
+                     <forename role="real" type="George"/>
+                     <surname role="real" type="Weasley"/>
+                     <roleName type="character"/>
+                     <addName type="nickname">Goyle</addName>
+                     <note type="misspelling">Gorge, Goyke</note>
+                  </persName>
+               </person>
+            </listPerson>
+            <listPerson>
+               <person xml:id="JP" sex="M" age="Adult">
+                  <persName>
+                     <forename role="real" type="James"/>
+                     <surname role="real" type="Potter"/>
+                     <roleName type="character"/>
+                     <addName type="nickname">Samaro</addName>
+                     <note type="misspelling">Jamez, Jomes, Samoro, Spartacus</note>
                   </persName>
                </person>
             </listPerson>
