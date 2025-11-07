@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>My Immortal</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Originally Published on Fanfiction.net on <date when="2007-03-03">March 3rd,
+                  2007</date> It was then removed by Fanfiction.net on <date when="2008-10">October
+                     2008</date>for a reason that has never been confirmed.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>born digital</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+     <front>
+        <docTitle>
+           <titlePart>Chapters 13 to 15</titlePart>
+        </docTitle>
+        <head place="top">Chapter 13. AN: raven fangz 4 <w norm="Helping">gelpin</w> me <w norm="again">agen</w> im sory <w norm="I">ah</w> <w norm="took">tok</w> ur <w norm="poster">postr</w> of <name ref="#">gerard</name> but dat guy is 
+           such a <w norm="fucking">fokin</w>  <w norm="attractive">sexbom</w>! PREPZ STOP <w norm="flaming">FLAMIGNG</w>!</head>
+     </front>
+      <body>
+         <p>Vampire and I ran up the stairs looking for Dumbledore. We were so scared.</p>
+         <p>"Dumbledore Dumblydore!" we both yelled. Dumbledore came there.</p>
+         <p>"What is it that you want now you despicable snobs?" he asked angrily.</p>
+         <p>"Volsemort has Draco!" we shouted at the same time.</p>
+         <p>He laughed in an evil voice.</p>
+         <p>"No! Don't! We need to save Draco!" we begged.</p>
+         <p>"No." he said meanly. "I don't give a darn what Voldemort does to Draco. Not after how much he misbehaved in school 
+            especially with YOU Ebony." he said while he frowned looking at me. "Besides I never liked him that much anyway." 
+            then he walked away. Vampire started crying. "My Draco!" he moaned. (AN: don't u fik gay guyz r lik so hot!)</p>
+         <p>"Its okay!" I tried to tell him but that didn't stop him. He started to cry tears of blood.
+            Then he had a brainstorm. "I had an idea!" he exclaimed.</p>
+         <p>"What?" I asked him.</p>
+         <p>"You'll see." he said. He took out his wand and did a spell. Then… suddenly we were in Voldemprt's lair!</p>
+         <p>We ran in with our wands out just as we heard a croon voice say. "Allah Kedavra!"
+            It was….. Voldemort!</p>
+      </body>
+  </text>
+   <text>
+      <body>
+         <p></p>
+         <p></p>
+      </body>
+  </text>
+</TEI>
