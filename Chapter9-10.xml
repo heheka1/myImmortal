@@ -26,44 +26,44 @@
                  dumbeldor swers! besuizds I SED HE HAD A HEDACHE! and da reson snap dosent lik harry 
                  now is coz hes christian and vampire is a satanist! MCR ROX!
             </note></p>
-            
-            <p>I was so mad and sad. I couldn’t believe <name ref="1">Draco</name> for cheating on me. I began to cry against the 
-            tree where I did it with <name ref="1">Draco</name>.</p>
+            <!-- Hey, I changed to name refs from numbers to character IDs so its more consistent with the other XML- Knox -->
+            <p>I was so mad and sad. I couldn’t believe <name ref="DM">Draco</name> for cheating on me. I began to cry against the 
+            tree where I did it with <name ref="DM">Draco</name>.</p>
             
             <p>Then all of a suddenly, an horrible man with red eyes and no nose and everything started 
-            flying towards me on a broomstick! He didn’t have a nose (basically like <name ref="4">Voldemort</name> in the 
-            movie) and he was <rs type="fashion">wearing all black</rs> but it was obvious he wasn’t gothic. It was…… <name ref="4">Voldemort</name>!</p>
+            flying towards me on a broomstick! He didn’t have a nose (basically like <name ref="TR">Voldemort</name> in the 
+            movie) and he was <rs type="fashion">wearing all black</rs> but it was obvious he wasn’t gothic. It was…… <name ref="TR">Voldemort</name>!</p>
             
             <p><said who="Ebony">“No!”</said> I shouted in a scared voice but then Voldemort shouted <said who="Voldemort">“Imperius!”</said> and I couldn’t run 
             away.</p>
-         <p><said who="Ebony">“Crookshanks!”</said> I shouted at him. <name ref="4">Voldemort</name> fell of his broom and started to scream. I felt bad 
+         <p><said who="Ebony">“Crookshanks!”</said> I shouted at him. <name ref="TR">Voldemort</name> fell of his broom and started to scream. I felt bad 
          for him even though I’m a sadist so I stopped.</p>
          
          <p><said who="Voldemort">“Ebony.”</said> he yelled. <said who="Voldemort">“Thou must kill Vampire Potter!”</said></p>
            
             
             <p>I thought about Vampire and his sexah eyes and his gothic black hair and how his face looks 
-            just like <name ref="5">Joel Madden</name>. I remembered that <name ref="1">Draco</name> had said I didn’t understand, so I thought,
-            what if <name ref="1">Draco</name> went out with Vampire before I went out with him and they broke up?</p>
+            just like <name ref="JM">Joel Madden</name>. I remembered that <name ref="DM">Draco</name> had said I didn’t understand, so I thought,
+            what if <name ref="DM">Draco</name> went out with Vampire before I went out with him and they broke up?</p>
             
             <p><said who="Ebony">“No,Voldemort!”</said> I shouted back.</p>
             
-            <p><name ref="4">Voldemort</name> gave me a gun. <said who="Ebony">“No! Please!”</said> I begged.</p>
+            <p><name ref="TR">Voldemort</name> gave me a gun. <said who="Ebony">“No! Please!”</said> I begged.</p>
             
             <p><said who="Voldemart">“Thou must!”</said> he yelled. <said who="Voldemart">“If thou does not, then I shall kill thy beloved Draco!”</said></p>
             
             <p><said who="Ebony">“How did you know?”</said> I asked in a surprised way.</p>
             
-            <p><name ref="4">Voldemort</name> got a dude-ur-so-retarded look on his face. <said who="Voldemart">“I hath telekinesis.”</said> he answered
+            <p><name ref="TR">Voldemort</name> got a dude-ur-so-retarded look on his face. <said who="Voldemart">“I hath telekinesis.”</said> he answered
             cruelly. <said who="Voldmort">“And if you doth not kill Vampire, then thou know what will happen to Draco!”</said> he
             shouted. Then he flew away angrily on his broomstick.</p>
             
-           <p> I was so scared and mad I didn’t know what to do. Suddenly <name ref="1">Draco</name> came into the woods.</p>
+           <p> I was so scared and mad I didn’t know what to do. Suddenly <name ref="DM">Draco</name> came into the woods.</p>
             
-            <p>“<name ref="1">Draco</name>!” I said. <said who="Ebony">“Hi!”</said></p>
+            <p>“<name ref="DM">Draco</name>!” I said. <said who="Ebony">“Hi!”</said></p>
             
             <p><said who="Draco">“Hi.”</said> he said back but his face was all sad. <rs type="fashion">He was wearing white</rs> foundation and messy 
-            eyeliner kind of like a pentagram (geddit) between <name ref="6">Joel Madden</name> and <name ref="7">Gerard Way</name>.</p>
+            eyeliner kind of like a pentagram (geddit) between <name ref="JM">Joel Madden</name> and <name ref="GW">Gerard Way</name>.</p>
             
             <p><said who="Ebony">“Are you okay?”</said> I asked.</p>
             
@@ -78,28 +78,28 @@
       <body>
          <p><note>AN: stup it u gay fags if u donot lik ma story den fukk off! ps it turnz out b’loody mary isn’t a 
             muggle afert al n she n vampire r evil datz y dey movd houses ok!</note> </p>
-         <p> I was really scared about <name ref="4">Vlodemort</name> all day. I was even upset went to rehearsals with my 
+         <p> I was really scared about <name ref="TR">Vlodemort</name> all day. I was even upset went to rehearsals with my 
             gothic metal band Bloody Gothic Rose 666. I am the lead singer of it and I play guitar. People 
             say that we sound like a cross between GC, Slipknot and MCR. The other people in the band 
-            are B’loody <name ref="10">Mary</name>, Vampire, <name ref="1">Draco</name>, Ron (although we call him Diabolo now. He has black hair
-            now with blue streaks in it.) and Hargrid. Only today <name ref="1">Draco</name> and Vampire were depressed so 
-            they weren’t coming and we wrote songs instead. I knew <name ref="1">Draco</name> was probably slitting his wrists 
+            are B’loody <name ref="HG">Mary</name>, Vampire, <name ref="DM">Draco</name>, Ron (although we call him Diabolo now. He has black hair
+            now with blue streaks in it.) and Hargrid. Only today <name ref="DM">Draco</name> and Vampire were depressed so 
+            they weren’t coming and we wrote songs instead. I knew <name ref="DM">Draco</name> was probably slitting his wrists 
             (he wouldn’t die because he was a vampire too and the only way you can kill a vampire is with 
             a c-r-o-s-s (there’s no way I’m writing that) or a steak) and Vampire was probably watching a 
             depressing movie like The Corpse Bride. I put on a black leather shirt that showed off my 
             boobs and tiny matching miniskirt that said Simple Plan on the butt. You might think I’m a slut
             but I’m really not. </p>
          <p> We were singing a cover of ‘<name ref="7">Helena</name>’ and at the end of the song I suddenly bust into tears. </p>
-         <p> <said who="Mary">“Ebony! Are you OK?”</said> B’loody <name ref="10">Mary</name> asked in a concerted voice. </p>
+         <p> <said who="Mary">“Ebony! Are you OK?”</said> B’loody <name ref="HM">Mary</name> asked in a concerted voice. </p>
          <p> <said who="Ebony">“What the fuck do you think?”</said> I asked angrily. And then I said. <said who="Ebony">“Well, Voldemort came and the
             fucking bastard told me to fucking kill Harry! But I don’t want to kill him, because, he’s really 
             nice, even if he did go out with Draco. But if I don’t kill Harry, then Voldemort, will fucking kill 
             Draco!”</said> I burst into tears. </p>
-         <p>Suddenly <name ref="1">Draco</name> jumped out from behind a wall.</p>
+         <p>Suddenly <name ref="DM">Draco</name> jumped out from behind a wall.</p>
          <p><said who="draco">“Why didn’t you fucking tell me!”</said> he shouted. <said who="draco">“How could you- you- you fucking poser muggle 
             bitch!”</said> (c is dat out of character?)</p>
-         <p>I started to cry and cry. <name ref="1">Draco</name> started to cry too all sensitive. Then he ran out crying.</p>
-         <p>We practiced for one more hour. Then suddenly <name ref="9">Dumbeldore</name> walked in angrily! His eyes were all 
+         <p>I started to cry and cry. <name ref="DM">Draco</name> started to cry too all sensitive. Then he ran out crying.</p>
+         <p>We practiced for one more hour. Then suddenly <name ref="AD">Dumbeldore</name> walked in angrily! His eyes were all 
          fiery and I knew this time it wasn’t cause he had a headache.</p>
          <p><said who="dumbeldore">“What have you done!”</said> He started to cry wisely. (c dats basically nut swering and dis time he 
          wuz relly upset n u wil c y) <said who="dumbeldore">“Ebony Draco has been found in his room. He committed suicide by 
