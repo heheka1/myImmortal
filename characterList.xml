@@ -106,17 +106,6 @@
                </person>
             </listPerson>
             <listPerson>
-               <person xml:id="RH" sex="M" age="Adult">
-                  <persName>
-                     <forename role="real" type="Rubeus"/>
-                     <surname role="real" type="Hagrid"/>
-                     <roleName type="character"/>
-                     <note type="misspelling">HAHRID, Hairgrid, Hargid, Hargird, Hargirid, Hargrid,
-                        HARGRIF</note>
-                  </persName>
-               </person>
-            </listPerson>
-            <listPerson>
                <person xml:id="BS" sex="F" age="Adolescent">
                   <persName>
                      <forename role="real" type="Britney"/>
@@ -166,6 +155,81 @@
                      <roleName type="character"/>
                      <addName type="nickname">Samaro</addName>
                      <note type="misspelling">Jamez, Jomes, Samoro, Spartacus</note>
+                  </persName>
+               </person>
+            </listPerson>
+            <listPerson>
+               <person xml:id="CD" sex="M" age="17">
+                  <persName>
+                     <forename role="real" type="Cedric"/>
+                     <surname role="real" type="Diggory"/>
+                     <roleName type="character"/>
+                     <note type="misspelling"></note>
+                  </persName>
+               </person>
+            </listPerson>
+         </div>
+         <div type="Professors/Adults">
+            <listPerson>
+               <person xml:id="RH" sex="M" age="Adult">
+                  <persName>
+                     <forename role="real" type="Rubeus"/>
+                     <surname role="real" type="Hagrid"/>
+                     <roleName type="character"/>
+                     <note type="misspelling">HAHRID, Hairgrid, Hargid, Hargird, Hargirid, Hargrid,
+                        HARGRIF</note>
+                  </persName>
+               </person>
+            </listPerson>      
+            <listPerson>
+               <person xml:id="AD" sex="M" age="Adult">
+                  <persName>
+                     <forename role="real" type="Albus"/>
+                     <surname role="real" type="Dumbledore"/>
+                     <roleName type="character"/>
+                     <note type="misspelling"></note>
+                  </persName>
+               </person>
+            </listPerson>
+            <listPerson>
+               <person xml:id="SS" sex="M" age="Adult">
+                  <persName>
+                     <forename role="real" type="Severus"/>
+                     <surname role="real" type="Snape"/>
+                     <roleName type="character"/>
+                     <note type="misspelling"></note>
+                  </persName>
+               </person>
+            </listPerson>
+            <listPerson>
+               <person xml:id="TR" sex="M" age="Adult">
+                  <persName>
+                     <forename role="real" type="Tom"/>
+                     <surname role="real" type="Riddle"/>
+                     <roleName type="character"/>
+                     <addName type="nickname">Voldemort</addName>
+                     <note type="misspelling"></note>
+                  </persName>
+               </person>
+            </listPerson>
+            <listPerson>
+               <person xml:id="PP" sex="M" age="Adult">
+                  <persName>
+                     <forename role="real" type="Peter"/>
+                     <surname role="real" type="Pettigrew"/>
+                     <roleName type="character"/>
+                     <addName type="nickname">Wormtail</addName>
+                     <note type="misspelling"></note>
+                  </persName>
+               </person>
+            </listPerson>
+            <listPerson>
+               <person xml:id="MM" sex="F" age="Adult">
+                  <persName>
+                     <forename role="real" type="Minerva"/>
+                     <surname role="real" type="McGonagal"/>
+                     <roleName type="character"/>
+                     <note type="misspelling"></note>
                   </persName>
                </person>
             </listPerson>
