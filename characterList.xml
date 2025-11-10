@@ -307,11 +307,12 @@
                </person>
             </listPerson>
             <listPerson>
-               <person xml:id="MM" sex="F" age="44">
+               <person xml:id="BW" sex="M" age="56">
                   <persName>
-                     <forename role="real" type="Paris"/>
-                     <surname role="real" type="Hilton"/>
+                     <forename role="real" type="Brian"/>
+                     <surname role="real" type="Warner"/>
                      <roleName type="real"/>
+                     <addName type="nickname">Marylin Mansion</addName>
                      <note type="misspelling"/>
                   </persName>
                </person>
