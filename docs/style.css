@@ -4,6 +4,19 @@ body {
     font-family: "Lucida Console", "Courier New", monospace;
     animation: moveIt 9s linear infinite;
 }
+.header {
+    padding: 2em;
+    background: PaleVioletRed;
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    color: mediumvioletred;
+}
+a:link {
+    color: mediumpurple;
+}
 @keyframes moveIt {
   from {background-position: bottom left;}
   to {background-position: top right;}
@@ -15,21 +28,14 @@ section {
     padding: 1em;
 
 }
-img#wTag.png {
-width:200px;
- height:auto  
+img.wTag {
+width:25%;
+ height:auto;
+ position:relative;
 }   
    
-img#saidTag.png {
-width:100px;
- height:auto  
-}
-iframe.prj {
-    width: 40%;
-    position: relative;
-    border-style: solid;
-    border-color: white;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+img.saidTag {
+width:100%;
+ height:auto;
+ position:relative;
 }
