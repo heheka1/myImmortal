@@ -2,7 +2,7 @@ body {
     background: DarkRed;
     background-image: url("coffin2.png");
     font-family: "Lucida Console", "Courier New", monospace;
-    animation: moveIt 6s linear infinite;
+    animation: moveIt 8s linear infinite;
 }
 @keyframes moveIt {
   from {background-position: bottom left;}
