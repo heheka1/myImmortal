@@ -182,7 +182,7 @@
                </person>
             </listPerson>      
             <listPerson>
-               <person xml:id="AD" sex="M" age="Adult">
+               <person xml:id="AD" sex="M" age="Ancient">
                   <persName>
                      <forename role="real" type="Albus"/>
                      <surname role="real" type="Dumbledore"/>
@@ -207,7 +207,7 @@
                      <forename role="real" type="Tom"/>
                      <surname role="real" type="Riddle"/>
                      <roleName type="character"/>
-                     <addName type="nickname">Voldemort</addName>
+                     <addName role="movie/book" type="nickname">Voldemort</addName>
                      <note type="misspelling"></note>
                   </persName>
                </person>
