@@ -235,6 +235,87 @@
                   </persName>
                </person>
             </listPerson>
+            <listPerson>
+               <person xml:id="CJ" sex="M" age="50">
+                  <persName>
+                     <forename role="real" type="Curtis"/>
+                     <surname role="real" type="Jackson"/>
+                     <roleName type="real"/>
+                     <addName type="nickname">50 Cent</addName>
+                     <note type="misspelling"/>
+                  </persName>
+               </person>
+            </listPerson>
+            <listPerson>
+               <person xml:id="BA" sex="M" age="53">
+                  <persName>
+                     <forename role="real" type="BillieJoe"/>
+                     <surname role="real" type="Armstrong"/>
+                     <roleName type="real"/>
+                     <note type="misspelling"/>
+                  </persName>
+               </person>
+            </listPerson>
+            <listPerson>
+               <person xml:id="PH" sex="F" age="44">
+                  <persName>
+                     <forename role="real" type="Paris"/>
+                     <surname role="real" type="Hilton"/>
+                     <roleName type="real"/>
+                     <note type="misspelling"/>
+                  </persName>
+               </person>
+            </listPerson>
+            <listPerson>
+               <person xml:id="JM" sex="M" age="46">
+                  <persName>
+                     <forename role="real" type="Joel"/>
+                     <surname role="real" type="Madden"/>
+                     <roleName type="real"/>
+                     <note type="misspelling"/>
+                  </persName>
+               </person>
+            </listPerson>
+            <listPerson>
+               <person xml:id="AL" sex="F" age="43">
+                  <persName>
+                     <forename role="real" type="Amy"/>
+                     <surname role="real" type="Lee"/>
+                     <roleName type="real"/>
+                     <note type="misspelling"/>
+                  </persName>
+               </person>
+            </listPerson>
+            <listPerson>
+               <person xml:id="GaW" sex="M" age="48">
+                  <persName>
+                     <forename role="real" type="Gerard"/>
+                     <surname role="real" type="Way"/>
+                     <roleName type="real"/>
+                     <note type="misspelling"/>
+                  </persName>
+               </person>
+            </listPerson>
+            <listPerson>
+               <person xml:id="HD" sex="F" age="38">
+                  <persName>
+                     <forename role="real" type="Hilary"/>
+                     <surname role="real" type="Duff"/>
+                     <roleName type="real"/>
+                     <note type="misspelling"/>
+                  </persName>
+               </person>
+            </listPerson>
+            <listPerson>
+               <person xml:id="MM" sex="F" age="44">
+                  <persName>
+                     <forename role="real" type="Paris"/>
+                     <surname role="real" type="Hilton"/>
+                     <roleName type="real"/>
+                     <note type="misspelling"/>
+                  </persName>
+               </person>
+            </listPerson>
          </div>
       </body>
    </text>
