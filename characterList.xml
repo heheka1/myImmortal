@@ -106,6 +106,17 @@
                </person>
             </listPerson>
             <listPerson>
+               <person xml:id="RH" sex="M" age="Adult">
+                  <persName>
+                     <forename role="real" type="Rubeus"/>
+                     <surname role="real" type="Hagrid"/>
+                     <roleName type="character"/>
+                     <note type="misspelling">HAHRID, Hairgrid, Hargid, Hargird, Hargirid, Hargrid,
+                        HARGRIF</note>
+                  </persName>
+               </person>
+            </listPerson>
+            <listPerson>
                <person xml:id="BS" sex="F" age="Adolescent">
                   <persName>
                      <forename role="real" type="Britney"/>
@@ -164,30 +175,21 @@
                      <forename role="real" type="Cedric"/>
                      <surname role="real" type="Diggory"/>
                      <roleName type="character"/>
-                     <note type="misspelling"></note>
+                     <note type="misspelling">Sedric</note>
                   </persName>
                </person>
             </listPerson>
          </div>
          <div type="Professors/Adults">
             <listPerson>
-               <person xml:id="RH" sex="M" age="Adult">
-                  <persName>
-                     <forename role="real" type="Rubeus"/>
-                     <surname role="real" type="Hagrid"/>
-                     <roleName type="character"/>
-                     <note type="misspelling">HAHRID, Hairgrid, Hargid, Hargird, Hargirid, Hargrid,
-                        HARGRIF</note>
-                  </persName>
-               </person>
-            </listPerson>      
-            <listPerson>
                <person xml:id="AD" sex="M" age="Ancient">
                   <persName>
                      <forename role="real" type="Albus"/>
                      <surname role="real" type="Dumbledore"/>
                      <roleName type="character"/>
-                     <note type="misspelling"></note>
+                     <note type="misspelling">Dumbeldork, Dumbelldore, Dumbldore, Dumbledark,
+                        Dumbledeor, Dumbledor, Dumbledork, Dumbledum, Dumblehor, Dumblydor,
+                        Dumblydore</note>
                   </persName>
                </person>
             </listPerson>
@@ -197,7 +199,7 @@
                      <forename role="real" type="Severus"/>
                      <surname role="real" type="Snape"/>
                      <roleName type="character"/>
-                     <note type="misspelling"></note>
+                     <note type="misspelling"/>
                   </persName>
                </person>
             </listPerson>
@@ -208,7 +210,7 @@
                      <surname role="real" type="Riddle"/>
                      <roleName type="character"/>
                      <addName role="movie/book" type="nickname">Voldemort</addName>
-                     <note type="misspelling"></note>
+                     <note type="misspelling"/>
                   </persName>
                </person>
             </listPerson>
@@ -219,7 +221,7 @@
                      <surname role="real" type="Pettigrew"/>
                      <roleName type="character"/>
                      <addName type="nickname">Wormtail</addName>
-                     <note type="misspelling"></note>
+                     <note type="misspelling"/>
                   </persName>
                </person>
             </listPerson>
@@ -229,7 +231,7 @@
                      <forename role="real" type="Minerva"/>
                      <surname role="real" type="McGonagal"/>
                      <roleName type="character"/>
-                     <note type="misspelling"></note>
+                     <note type="misspelling"/>
                   </persName>
                </person>
             </listPerson>
