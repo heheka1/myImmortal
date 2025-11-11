@@ -1,22 +1,24 @@
 body {
     background: DarkRed;
     background-image: url("coffin2.png");
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: "baskerville", "Courier New", monospace;
+    color: lavender;
     animation: moveIt 9s linear infinite;
 
 }
 .header {
     padding: 2em;
-    background: PaleVioletRed;
-    border: Maroon;
+    background: indigo;
+    border: black;
     border-width: medium;
     border-style: solid;
+    border-radius: 25px;
 }
 a:visited {
-    color: moccasin;
+    color: lightpink;
 }
 a:hover {
-    color: darkred;
+    color: hotpink;
 }
 a:link {
     color: darkred;
@@ -26,23 +28,25 @@ a:link {
   to {background-position: top right;}
 }
 section {
-    background: PaleVioletRed;
+    background: indigo;
     width: 80%;
     margin: auto;
     padding: 1em;
-    border: Maroon;
+    border: black;
     border-width: medium;
     border-style: solid;
-
 }
 section.title {
-    background: PaleVioletRed;
+    background: mediumpurple;
     width: 60%;
     margin: auto;
+    text-align: center;
     padding: 1em;
-    border: Maroon;
-    border-width: medium;
-    border-style: dotted;
+    border: 40px solid transparent;
+    padding: 15px;
+    border-image: url(bloodFrame2.png);
+    border-image-slice: 200;
+        
 }
 img.wTag {
     width: 25%;
