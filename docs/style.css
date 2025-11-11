@@ -3,19 +3,23 @@ body {
     background-image: url("coffin2.png");
     font-family: "Lucida Console", "Courier New", monospace;
     animation: moveIt 9s linear infinite;
+
 }
 .header {
     padding: 2em;
     background: PaleVioletRed;
+    border: Maroon;
+    border-width: medium;
+    border-style: solid;
 }
 a:visited {
-    color: white;
+    color: moccasin;
 }
 a:hover {
-    color: mediumvioletred;
+    color: darkred;
 }
 a:link {
-    color: mediumpurple;
+    color: darkred;
 }
 @keyframes moveIt {
   from {background-position: bottom left;}
@@ -26,16 +30,28 @@ section {
     width: 80%;
     margin: auto;
     padding: 1em;
+    border: Maroon;
+    border-width: medium;
+    border-style: solid;
 
 }
+section.title {
+    background: PaleVioletRed;
+    width: 60%;
+    margin: auto;
+    padding: 1em;
+    border: Maroon;
+    border-width: medium;
+    border-style: dotted;
+}
 img.wTag {
-width:25%;
- height:auto;
- position:relative;
-}   
-   
+    width: 25%;
+    height: auto;
+    position: relative;
+}
+
 img.saidTag {
-width:100%;
- height:auto;
- position:relative;
+    width: 100%;
+    height: auto;
+    position: relative;
 }
