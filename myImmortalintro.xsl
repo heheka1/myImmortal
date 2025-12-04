@@ -17,16 +17,27 @@
                   
               </title>
               <link rel="stylesheet" href="style.css"/>
+              <nav>
+                  <a href="index.html">Home</a> | <a href="webCharacter.html">Character List</a> | <a href="myImmortalintro.html">Full Fanfiction</a> | <a href="markupStrat.html">Markup Strategy</a>
+                  | <a href="https://github.com/heheka1/myImmortal">Github</a> 
+              </nav>
           </head>  
             <body>
                 
                 <h3> <xsl:apply-templates select="descendant::titlePart"/></h3>
                 <xsl:apply-templates/>
+                
+                
             </body>
         </html>
     </xsl:template>
-    <xsl:template match="docTitle">
+    
+    <xsl:template match="titleStmt">
         <h1><xsl:apply-templates/></h1>
+    </xsl:template>
+    
+    <xsl:template match="docTitle">
+        <h2><xsl:apply-templates/></h2>
     </xsl:template>
     <xsl:template match="text">
         <section>
@@ -45,5 +56,7 @@
         </head>
         
     </xsl:template>
+   
+       
     
 </xsl:stylesheet>
