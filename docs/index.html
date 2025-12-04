@@ -7,7 +7,8 @@
     <body>
         <div class="header">
             <nav>
-                <a href="index.html">Home</a> | <a href="webCharacter.html">Character List</a>
+                <a href="index.html">Home</a> | <a href="webCharacter.html">Character List</a> | <a href="myImmortalintro.html">Full Fanfiction</a> | <a href="markupStrat.html">Markup Strategy</a>
+               | <a href="https://github.com/heheka1/myImmortal">Github</a>
             </nav>
         </div>
         <section class="title">
@@ -20,7 +21,7 @@
                 named "Ebony Dark'ness Dementia Raven Way" and her relationships with the characters
                 of the Harry Potter series, particularly her romantic relationship with Draco
                 Malfoy, culminating in her travelling back in time to defeat the main antagonist of
-                the series, ord Voldemort. The work takes its name from the song "My Immortal" by
+                the series, Lord Voldemort. The work takes its name from the song "My Immortal" by
                 Evanescence. My Immortal is popularly regarded as one of the worst works of fan
                 fiction ever written. Since the work's publication, it has gained infamy for its
                 numerous grammar and spelling errors, plot inconsistencies and complete disregard
@@ -29,39 +30,16 @@
                 consider the work and the alleged online presence of the author too elaborate to
                 fake effectively. Despite this, the series has also inspired multiple derivative
                 works, including a YouTube web series, and is viewed with nostalgia for adolescent
-                fan life. " -Wikipedia. You can find the version of My Immortal we used for the
+                fan life. " -Wikipedia.</p>
+            <p> You can find the version of My Immortal we used for the
                 project <a href="https://www.fanfiction.net/s/6829556/2/My-Immortal/">here</a>
             </p>
         </section>
         <section>
             <h2>Our Mission</h2>
             <p>Our mission is to analyze the word choice, mispellings, and slang of the fanfiction.
-                We have done this by marking it up with XML through following the TEI guidelines. </p>
-            <h2>Markup Stratedgy</h2>
-            <h3>Unique Wording</h3>
-            <p>When marking up My Immortal, we kept our eye out for specific things. Whenever we
-                found slang, or a word that was misspelled, we would mark it with the "word" (w)
-                tag. We then specified the proper way of spelling that word by adding the attribute
-                "norm" inside the "word" tag. </p>
-            <img class="wTag" src="wTag.png"
-                alt="Imagine of a XML tag that says w norm =see which is wrapped around the letter c in the document" />
-            <h3>Characters</h3>
-            <p>We also kept track of the characters within the story. We did this in various
-                different ways. One way was by creating a XML id for each character, so whenever we
-                found the character mentioned in the story, we would tag them with their unique id.
-                In addition, whenever there was dialogue, we would mark who was speaking with the
-                tag "said" and then use the attribute "who" to indicate the speaker . We also
-                created a character list that maps out all the characters mentioned, any nicknames
-                they have in the story, and mispellings of their names.</p>
-            <img class="saidTag" src="saidTag.png"
-                alt="image of an xml tag that says said who= Ebony. The tag is wrapped around the phrase Vampire
-                    Potter you motherfucker." />
-            <h3>Fashion</h3>
-            <p>The author writes detailed descriptions of the clothing characters wear, though the
-                character they do this most often is the protagonist. We marked whenever one of
-                these descriptions happen with the "reference string" tag and the attrbute "fashion"
-                (rs type="fashion" to do this markup </p>
-            <img src="fashionTag.png" alt="image of an xml tag that says rs type= fashion" />
+                We have done this by marking it up with XML through following the <a href="https://tei-c.org/guidelines/">TEI guidelines.</a> </p>
+            
         </section>
     </body>
 </html>
