@@ -44,7 +44,7 @@
     
     <xsl:template match="person">
       <li id="{@xml:id}">
-          <xsl:value-of select="descendant::forename/@type || ' ' || descendant::surname/@type || ', ' || descendant::roleName/@type"/>
+          <strong><xsl:value-of select="descendant::forename/@type || ' ' || descendant::surname/@type"/></strong><xsl:value-of select="', ' || descendant::roleName/@type"/>
           <xsl:if test="descendant::addName">
               <xsl:value-of select=" ' Additional Name (' || descendant::addName/@type || ') '"/>
               <xsl:apply-templates select="descendant::addName"/>
