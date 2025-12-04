@@ -4,6 +4,8 @@
   xmlns="http://www.w3.org/1999/xhtml"
   version="3.0">
     
+    <xsl:variable name="immortalColl" as="document-node()+" 
+        select="collection('../myImmortal/?select=*.xml')"/>
     
     <xsl:template match="/">
         <html>
@@ -14,14 +16,17 @@
                   <xsl:apply-templates select="descendant::title"></xsl:apply-templates>
                   
               </title>
-              <link rel="stylesheet" href="docs/style.css"/>
+              <link rel="stylesheet" href="style.css"/>
           </head>  
             <body>
-                <xsl:apply-templates select="descendant::body"/>
+                
                 <h3> <xsl:apply-templates select="descendant::titlePart"/></h3>
                 <xsl:apply-templates/>
             </body>
         </html>
+    </xsl:template>
+    <xsl:template match="docTitle">
+        <h1><xsl:apply-templates/></h1>
     </xsl:template>
     <xsl:template match="text">
         <section>
