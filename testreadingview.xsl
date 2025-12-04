@@ -19,19 +19,18 @@
             <body>
                <h1> <xsl:apply-templates select="descendant::titleStmt/title"/></h1>
                 <xsl:apply-templates select="descendant::body"/>
-                
-                    
-                
-            </body>
-            
+            </body> 
         </html>
     </xsl:template>
+    
     <xsl:template match="p"> 
-    <p><xsl:apply-templates/></p> 
+        <p><xsl:apply-templates/></p> 
     </xsl:template>
+    
     <xsl:template match="name">
        <span class="name">
            <a href="characterList.html#{@ref}"><xsl:apply-templates/></a>
        </span> 
     </xsl:template>
+    
 </xsl:stylesheet>
