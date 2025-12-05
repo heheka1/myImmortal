@@ -5,8 +5,10 @@
   version="3.0">
     
     <xsl:variable name="immortalColl" as="document-node()+" 
-        select="collection('../myImmortal/?select=*.xml')"/>
+        select="collection('../myImmortal/chapters/?select=*.xml')"/>
     
+    <xsl:variable name="introFile" as="document-node()" select="doc('../myImmortal/chapters/introChapter1-2.xml')"/>
+    <xsl:variable name="characterList" as="document-node()" select="doc('../myImmortal/characterList.xml')"/>
     <xsl:template match="/">
         <html>
           <head>
@@ -24,16 +26,38 @@
           </head>  
             <body>
                 
-                <h3> <xsl:apply-templates select="descendant::titlePart"/></h3>
-                <xsl:apply-templates/>
+                <h1>My Immortal, as edited by us!</h1>
+                
+                <h2>About this edition</h2>
+                
+          
+                <xsl:apply-templates select="$introFile//titleStmt" mode="top"/>
+                
+                <xsl:apply-templates select="$immortalColl//text"/>
                 
                 
             </body>
         </html>
     </xsl:template>
     
-    <xsl:template match="titleStmt">
-        <h1><xsl:apply-templates/></h1>
+    <xsl:template match="titleStmt" mode="top">
+        
+        <h3><xsl:text>Author: </xsl:text>
+        <xsl:apply-templates select="author"/></h3>
+        
+        <h3>Editing and encoding by</h3>
+        <ul>
+            <xsl:apply-templates select="editor" mode="top"/>
+        </ul>
+        <p><xsl:apply-templates select="publicationStmt"/></p>
+    </xsl:template>
+    
+    <xsl:template match="editor" mode="top">
+        <li><xsl:apply-templates/></li>
+    </xsl:template>
+    
+    <xsl:template match="teiHeader">
+        <h1><xsl:apply-templates select="descendant::titleStmt"/></h1>
     </xsl:template>
     
     <xsl:template match="docTitle">
@@ -50,11 +74,15 @@
             <xsl:apply-templates/>
         </p>
     </xsl:template>
-    <xsl:template match="teiHeader">
-        <head>
-            <xsl:apply-templates/>
-        </head>
+    <xsl:template match="name">
         
+        <span class="{name()}" 
+            title="{$characterList//*[@xml:id = current()/@ref]//forename/@type || ' ' ||
+            $characterList//*[@xml:id = current()/@ref]//surname/@type 
+            }">
+            <!-- ebb: This outputs the name of the element <span class="name"> in this case. -->
+        <xsl:apply-templates/>
+        </span>
     </xsl:template>
    
        
