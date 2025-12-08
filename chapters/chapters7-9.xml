@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="../ODD/out/tei_all_myImmortal.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../ODD/out/tei_all_myImmortal.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
       <fileDesc>
@@ -22,7 +24,7 @@
   <text>
      <front>
         <docTitle>
-           <titlePart>Chapters 7 to 9</titlePart>
+           <titlePart n="4">Chapters 7 to 9</titlePart>
         </docTitle>
         <head place="top">Re-poster's Note: I also forgot to mention that you should read some of the commentaries people write here, they're hilarious!
            Chapter 7. Bring me <w norm="to">2</w> life. 

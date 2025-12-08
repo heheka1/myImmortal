@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="ODD/out/tei_all_myImmortal.rng" type="application/xml"
+<?xml-model href="../ODD/out/tei_all_myImmortal.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="ODD/out/tei_all_myImmortal.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../ODD/out/tei_all_myImmortal.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -30,7 +30,7 @@
    <text>
       <front>
          <docTitle>
-            <titlePart>1. Intro</titlePart>
+            <titlePart n="1"> Intro</titlePart>
          </docTitle>
          <head place="top">By: xXMidnightEssenceXx DISCLAIMER: I DID NOT WRITE THIS The infamous
             WORST FANFICTION EVER posted here, unedited, for ur "lulz" -Originally by Tara Gilesbie

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="../ODD/out/tei_all_myImmortal.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../ODD/out/tei_all_myImmortal.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Chapter 16-20</title>
+            <title>My Immortal</title>
          </titleStmt>
          <publicationStmt>
            <p>
@@ -22,7 +22,12 @@
          </sourceDesc>
       </fileDesc>
   </teiHeader>
-  <text>
+   <text> 
+      <front>
+         <docTitle>
+            <titlePart n="8">Chapters 16 to 20 </titlePart>
+         </docTitle>
+      </front>
       <body>
          <p>AN: <w norm="you">u</w> no <w norm="what">wut</w>! <w norm="shut">sut</w> up ok! <w norm="prove">proov</w> 2 me <w norm="your">ur</w> <w norm="not">nut</w> <w norm="preps">prepz</w>! raven <w norm="you">u</w> <w norm="suck">suk</w> <w norm="you">u</w> <rs type="swear"><w norm="fucking">fuken</w></rs> <rs type="swear"><w norm="bitch">bich</w></rs> gimme <w norm="back">bak</w> <w norm="my">mah</w> 
          <rs type="swear"><w norm="fucking">fukijn</w></rs> <w norm="sweater">swteet</w> <w norm="your">ur</w> <w norm="supposed">supsd</w> <w norm="to">2</w> <w norm="right">rit</w> <w norm="this">dis</w>! Raven <rs type="swear"><w norm="what the fuck">wtf</w></rs> <w norm="you">u</w> <rs type="swear"><w norm="bitch">bich</w></rs> <w norm="you're">ur</w> <w norm="supposed">suposd</w> to <w norm="do this">dodis</w>! BTW <w norm="thanks">fangz</w> <w norm="to">2</w> britney5655 

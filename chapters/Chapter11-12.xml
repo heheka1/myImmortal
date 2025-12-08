@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="../ODD/out/tei_all_myImmortal.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../ODD/out/tei_all_myImmortal.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
       <fileDesc>
@@ -21,7 +21,7 @@
    <text>
       <front>
          <docTitle>
-            <titlePart>Chapters 11 to 12</titlePart>
+            <titlePart n="6">Chapters 11 to 12</titlePart>
          </docTitle>
          <head place="top">Chapter 11. AN: i sed stup flaming up prepz! c if dis <w norm="chapter">chaptr</w> is 
             <w norm="stupid">srupid</w>!1111 it <w norm ="deals">delz</w> wit rly <w norm ="serious">sris</w> <w norm ="issues">issus</w>! <w norm ="so">sp</w> <w norm ="see">c</w> 4 urself if <w norm ="its">itz</w> <w norm ="stupid">ztupid</w> <w norm ="by the way">brw</w> fangz 2 

@@ -31,9 +31,13 @@
                 <h2>About this edition</h2>
                 
           
-                <xsl:apply-templates select="$introFile//titleStmt" mode="top"/>
+                <xsl:apply-templates select="$introFile//titleStmt" mode="top">
+                    <xsl:sort select="(following::text/front//titlePart[1])/@n ! number()"/>
+                </xsl:apply-templates>
                 
-                <xsl:apply-templates select="$immortalColl//text"/>
+                <xsl:apply-templates select="$immortalColl//text">
+                    <xsl:sort select="(front//titlePart[1])/@n ! number()"/>
+                </xsl:apply-templates>
                 
                 
             </body>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="../ODD/out/tei_all_myImmortal.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../ODD/out/tei_all_myImmortal.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
       <fileDesc>
@@ -21,7 +21,7 @@
   <text>
      <front>
         <docTitle>
-           <titlePart>Chapters 13 to 15</titlePart>
+           <titlePart n="7">Chapters 13 to 15</titlePart>
         </docTitle>
         <head place="top">Chapter 13. AN: raven fangz 4 <w norm="Helping">gelpin</w> me <w norm="again">agen</w> im sory <w norm="I">ah</w> <w norm="took">tok</w> ur <w norm="poster">postr</w> of <name ref="#">gerard</name> but dat guy is 
            such a <rs type="swear"><w norm="swear"><w norm="fucking">fokin</w></w></rs>  <w norm="attractive">sexbom</w>! PREPZ STOP <w norm="flaming">FLAMIGNG</w>!</head>

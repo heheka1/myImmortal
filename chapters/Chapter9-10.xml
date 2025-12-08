@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="../ODD/out/tei_all_myImmortal.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../ODD/out/tei_all_myImmortal.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
       <fileDesc>
@@ -21,6 +22,11 @@
       </fileDesc>
   </teiHeader>
   <text>
+     <front>
+        <docTitle>
+           <titlePart n="5">Chapters 9 to 10</titlePart>
+        </docTitle>
+     </front>
       <body>
            <p> <note> AN: stop flaming ok! I dntn red all da boox! dis is frum da movie ok so itz nut my folt if 
                  dumbeldor swers! besuizds I SED HE HAD A HEDACHE! and da reson snap dosent lik harry 

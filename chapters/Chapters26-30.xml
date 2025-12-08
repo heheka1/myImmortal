@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="../ODD/out/tei_all_myImmortal.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../ODD/out/tei_all_myImmortal.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
       <fileDesc>
@@ -21,7 +21,7 @@
   <text>
      <front>
         <docTitle>
-           <titlePart>Chapters 26 to 30</titlePart>
+           <titlePart n="10">Chapters 26 to 30</titlePart>
         </docTitle>
         <head place="top">AN: PREPZ STUP FLAMING SDA STRY OK!1 if u dnot lik da story den go fok urself u fokeng prep! 
            U SUK!111 oh y and I wuznt beng rasist ok!11</head>

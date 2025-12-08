@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="../ODD/out/tei_all_myImmortal.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../ODD/out/tei_all_myImmortal.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Chapters 21-25</title>
+            <title>My Immortal</title>
          </titleStmt>
          <publicationStmt>
             <p>Originally Published on Fanfiction.net on <date when="2007-03-03">March 3rd,
@@ -21,10 +21,10 @@
   <text>
      <front>
         <docTitle>
-           <titlePart>Chapters 11 to 12</titlePart>
+           <titlePart n="9">Chapters 21 to 25</titlePart>
         </docTitle>
         <head place="top">Chapter 21. AN: <w norm="fuck">fuk</w> <w norm="you">u</w> ok! <w norm="you">u</w> 
-           <w norm="fucking">fokng</w> <w>suk</w>. <w norm="it's">itz</w> <w norm="not">nut</w> <w norm="my">ma</w> 
+           <w norm="fucking">fokng</w> <w norm="suck">suk</w>. <w norm="it's">itz</w> <w norm="not">nut</w> <w norm="my">ma</w> 
            <w norm="fault">fult</w> if <w norm="it's">itz</w> <w norm="spelled">speld</w> <w norm="wrong">rong</w> ok 
            <w norm="cause">koz</w> <w norm="that">dat</w> <w norm="bitch">bich</w> <w norm="raven">ravern</w> 
            <w norm="cause">cuz</w> it <w norm="fuck">fok</w> <w norm="you">u</w> <w norm="preps">prepz</w>!1 
