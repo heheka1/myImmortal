@@ -84,6 +84,11 @@
         <xsl:apply-templates/>
         </span>
     </xsl:template>
+        <xsl:template match="said">
+            <q>
+                <xsl:apply-templates/>
+            </q>
+        </xsl:template>
    
        
     
