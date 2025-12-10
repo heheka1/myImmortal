@@ -268,6 +268,16 @@
                </person>
             </listPerson>
             <listPerson>
+               <person xml:id="CF" sex="M" age="60">
+                  <persName>
+                     <forename role="real" type="Cornelius"/>
+                     <surname role="real" type="Fudge"/>
+                     <roleName type="character"/>
+                     <note type="misspelling">Conrelia, Fug</note>
+                  </persName>
+               </person>
+            </listPerson>
+            <listPerson>
                <person xml:id="JM" sex="M" age="46">
                   <persName>
                      <forename role="real" type="Joel"/>
@@ -308,12 +318,53 @@
                </person>
             </listPerson>
             <listPerson>
+               <person xml:id="MN" sex="F" age="adult">
+                  <persName>
+                     <forename role="real" type="Mrs"/>
+                     <surname role="real" type="Norris"/>
+                     <roleName type="character"/>
+                     <note type="misspelling"/>
+                  </persName>
+               </person>
+            </listPerson>
+            <listPerson>
+               <person xml:id="ST" sex="F" age="adult">
+                  <persName>
+                     <forename role="real" type="Sybil"/>
+                     <surname role="real" type="Trelawny"/>
+                     <roleName type="character"/>
+                     <note type="misspelling"/>
+                  </persName>
+               </person>
+            </listPerson>
+            
+            <listPerson>
                <person xml:id="BW" sex="M" age="56">
                   <persName>
                      <forename role="real" type="Brian"/>
                      <surname role="real" type="Warner"/>
                      <roleName type="real"/>
                      <addName type="nickname">Marylin Mansion</addName>
+                     <note type="misspelling"/>
+                  </persName>
+               </person>
+            </listPerson>
+            <listPerson>
+               <person xml:id="DU" sex="F" age="60">
+                  <persName>
+                     <forename role="real" type="Doris"/>
+                     <surname role="real" type="Umbridge"/>
+                     <roleName type="real"/>
+                     <note type="misspelling">Rumbridge</note>
+                  </persName>
+               </person>
+            </listPerson>
+            <listPerson>
+               <person xml:id="VV" sex="M" age="49">
+                  <persName>
+                     <forename role="real" type="Ville"/>
+                     <surname role="real" type="Valo"/>
+                     <roleName type="real"/>
                      <note type="misspelling"/>
                   </persName>
                </person>

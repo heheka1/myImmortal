@@ -88,6 +88,18 @@
         <xsl:apply-templates/>
         </span>
     </xsl:template>
+    <xsl:template match="w">
+        <span class="w"><xsl:apply-templates/></span>
+    </xsl:template>
+    
+    <xsl:template match="rs">
+        <span class="rs"><xsl:apply-templates/></span>
+    </xsl:template>
+    
+    <xsl:template match="note">
+        <span class="note"><xsl:apply-templates/></span>
+    </xsl:template>
+    
         <xsl:template match="said">
             <q>
                 <xsl:apply-templates/>
