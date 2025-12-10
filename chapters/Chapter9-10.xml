@@ -28,56 +28,56 @@
         </docTitle>
      </front>
       <body>
-           <p> <note> AN: stop flaming ok! I dntn red all da boox! dis is frum da movie ok so itz nut my folt if 
-                 dumbeldor swers! besuizds I SED HE HAD A HEDACHE! and da reson snap dosent lik harry 
-                 now is coz hes christian and vampire is a satanist! MCR ROX!
+         <p> <note> AN: stop flaming ok! I <w norm="didn't">dntn</w> <w norm="read">red</w> all <w norm="the">da</w> <w norm="books">boox</w>! <w norm="this">dis</w> is <w norm="from">frum</w> <w norm="the">da</w> movie ok so <w norm="it's">itz</w> <w norm="not">nut</w> my <w norm="fault">folt</w> if 
+               <w norm="Dumbledore">dumbeldor</w> <w norm="swears">swers</w>! <w norm="besides">besuizds</w> I <w norm="said">SED</w> HE HAD A <w norm="headache">HEDACHE</w>! and <w norm="the">da</w> <w norm="reson">reason</w> <w norm="Snape">snap</w> dosent <w norm="like">lik</w> harry 
+               now is <w norm="cause">coz</w> hes christian and vampire is a satanist! <w norm="My Chemical Romance">MCR</w> <w norm="Rocks">ROX</w>!
             </note></p>
-            <!-- Hey, I changed to name refs from numbers to character IDs so its more consistent with the other XML- Knox -->
+         
             <p>I was so mad and sad. I couldn’t believe <name ref="DM">Draco</name> for cheating on me. I began to cry against the 
-            tree where I did it with <name ref="DM">Draco</name>.</p>
+            tree where I did it with Draco.</p>
             
             <p>Then all of a suddenly, an horrible man with red eyes and no nose and everything started 
-            flying towards me on a broomstick! He didn’t have a nose (basically like <name ref="TR">Voldemort</name> in the 
-            movie) and he was <rs type="fashion">wearing all black</rs> but it was obvious he wasn’t gothic. It was…… <name ref="TR">Voldemort</name>!</p>
+            flying towards me on a broomstick! He didn’t have a nose <note place="parenthesis">(basically like <name ref="TR">Voldemort</name> in the 
+               movie)</note> and he was <rs type="fashion">wearing all black</rs> but it was obvious he wasn’t gothic. It was…… Voldemort!</p>
             
-            <p><said who="Ebony">“No!”</said> I shouted in a scared voice but then Voldemort shouted <said who="Voldemort">“Imperius!”</said> and I couldn’t run 
+            <p><said who="Ebony">No!</said> I shouted in a scared voice but then Voldemort shouted <said who="Voldemort">Imperius!</said> and I couldn’t run 
             away.</p>
-         <p><said who="Ebony">“Crookshanks!”</said> I shouted at him. <name ref="TR">Voldemort</name> fell of his broom and started to scream. I felt bad 
+         <p><said who="Ebony">Crookshanks!</said> I shouted at him. <name ref="TR">Voldemort</name> fell <w norm="off">of</w> his broom and started to scream. I felt bad 
          for him even though I’m a sadist so I stopped.</p>
          
-         <p><said who="Voldemort">“Ebony.”</said> he yelled. <said who="Voldemort">“Thou must kill Vampire Potter!”</said></p>
+         <p><said who="Voldemort"><name ref="TG">Ebony</name>.</said> he yelled. <said who="Voldemort">Thou must kill Vampire Potter!</said></p>
            
             
-            <p>I thought about Vampire and his sexah eyes and his gothic black hair and how his face looks 
+         <p>I thought about <name ref="HP">Vampire</name> and his <w norm="sexy">sexah</w> eyes and his gothic black hair and how his face looks 
             just like <name ref="JM">Joel Madden</name>. I remembered that <name ref="DM">Draco</name> had said I didn’t understand, so I thought,
-            what if <name ref="DM">Draco</name> went out with Vampire before I went out with him and they broke up?</p>
+            what ifDraco went out with Vampire before I went out with him and they broke up?</p>
             
-            <p><said who="Ebony">“No,Voldemort!”</said> I shouted back.</p>
+            <p><said who="Ebony">No,Voldemort!</said> I shouted back.</p>
             
-            <p><name ref="TR">Voldemort</name> gave me a gun. <said who="Ebony">“No! Please!”</said> I begged.</p>
+            <p><name ref="TR">Voldemort</name> gave me a gun. <said who="Ebony">No! Please!</said> I begged.</p>
             
-            <p><said who="Voldemart">“Thou must!”</said> he yelled. <said who="Voldemart">“If thou does not, then I shall kill thy beloved Draco!”</said></p>
+            <p><said who="Voldemart">Thou must!</said> he yelled. <said who="Voldemart">If thou does not, then I shall kill thy beloved Draco!</said></p>
             
-            <p><said who="Ebony">“How did you know?”</said> I asked in a surprised way.</p>
+            <p><said who="Ebony">How did you know?</said> I asked in a surprised way.</p>
             
-            <p><name ref="TR">Voldemort</name> got a dude-ur-so-retarded look on his face. <said who="Voldemart">“I hath telekinesis.”</said> he answered
-            cruelly. <said who="Voldmort">“And if you doth not kill Vampire, then thou know what will happen to Draco!”</said> he
+            <p>Voldemort got a dude-ur-so-retarded look on his face. <said who="Voldemart">I hath telekinesis.</said> he answered
+            cruelly. <said who="Voldmort">And if you doth not kill Vampire, then thou know what will happen to Draco!</said> he
             shouted. Then he flew away angrily on his broomstick.</p>
             
            <p> I was so scared and mad I didn’t know what to do. Suddenly <name ref="DM">Draco</name> came into the woods.</p>
             
-            <p>“<name ref="DM">Draco</name>!” I said. <said who="Ebony">“Hi!”</said></p>
+         <p><said who="Ebony"><name ref="DM">Draco</name>!</said> I said. <said who="Ebony">Hi!</said></p>
             
-            <p><said who="Draco">“Hi.”</said> he said back but his face was all sad. <rs type="fashion">He was wearing white</rs> foundation and messy 
-            eyeliner kind of like a pentagram (geddit) between <name ref="JM">Joel Madden</name> and <name ref="GW">Gerard Way</name>.</p>
+            <p><said who="Draco">Hi.</said> he said back but his face was all sad. <rs type="fashion">He was wearing white</rs> foundation and messy 
+            eyeliner kind of like a pentagram (geddit) between <name ref="JM">Joel Madden</name> and <name ref="GaW">Gerard Way</name>.</p>
             
-            <p><said who="Ebony">“Are you okay?”</said> I asked.</p>
+            <p><said who="Ebony">Are you okay?</said> I asked.</p>
             
-            <p><said who="Draco">“No.”</said> he answered.</p>
+            <p><said who="Draco">No.</said> he answered.</p>
             
-           <p> <said who="Ebony">“I’m sorry I got all mad at you but I thought you cheated on me.”</said> I expelled.</p>
+         <p> <said who="Ebony">I’m sorry I got all mad at you but I thought you cheated on me.</said> I <w norm="explained">expelled</w>.</p>
             
-           <p> <said who="Draco">“That’s okay.”</said> he said all depressed and we went back into Hogwarts together making out.</p>
+           <p> <said who="Draco">That’s okay.</said> he said all depressed and we went back into Hogwarts together making out.</p>
       </body>
   </text>
    <text>
@@ -95,12 +95,12 @@
             depressing movie like The Corpse Bride. I put on a black leather shirt that showed off my 
             boobs and tiny matching miniskirt that said Simple Plan on the butt. You might think I’m a slut
             but I’m really not. </p>
-         <p> We were singing a cover of ‘<name ref="7">Helena</name>’ and at the end of the song I suddenly bust into tears. </p>
-         <p> <said who="Mary">“Ebony! Are you OK?”</said> B’loody <name ref="HM">Mary</name> asked in a concerted voice. </p>
-         <p> <said who="Ebony">“What the fuck do you think?”</said> I asked angrily. And then I said. <said who="Ebony">“Well, Voldemort came and the
-            fucking bastard told me to fucking kill Harry! But I don’t want to kill him, because, he’s really 
+         <p> We were singing a cover of ‘<rs type="song">Helena</rs>’ and at the end of the song I suddenly <w norm="burst">bust</w> into tears. </p>
+         <p> <said who="Mary">Ebony! Are you OK?</said> B’loody Mary asked in a <w norm="concerned">concerted</w> voice. </p>
+         <p> <said who="Ebony">What the fuck do you think?</said> I asked angrily. And then I said. <said who="Ebony">Well, Voldemort came and the
+               <rs type="swear">fucking</rs> bastard told me to <rs type="swear"></rs> kill Harry! But I don’t want to kill him, because, he’s really 
             nice, even if he did go out with Draco. But if I don’t kill Harry, then Voldemort, will fucking kill 
-            Draco!”</said> I burst into tears. </p>
+            Draco!</said> I burst into tears. </p>
          <p>Suddenly <name ref="DM">Draco</name> jumped out from behind a wall.</p>
          <p><said who="draco">“Why didn’t you fucking tell me!”</said> he shouted. <said who="draco">“How could you- you- you fucking poser muggle 
             bitch!”</said> (c is dat out of character?)</p>
