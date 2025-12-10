@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
   xpath-default-namespace="http://www.tei-c.org/ns/1.0" 
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
   xmlns="http://www.w3.org/1999/xhtml"
   version="3.0">
     
@@ -31,12 +32,18 @@
                 <h2>About this edition</h2>
                 
           
-                <xsl:apply-templates select="$introFile//titleStmt" mode="top">
-                    <xsl:sort select="(following::text/front//titlePart[1])/@n ! number()"/>
+            <xsl:apply-templates select="$introFile//teiHeader//titleStmt" mode="top">
+                   <xsl:sort select="(following::text/front//titlePart[1])/@n"/>
                 </xsl:apply-templates>
                 
+                <!-- ebb: 2025-12-10: At this point, Knox and I realize that we have to control the sort order of 
+                    <text> elements, NOT one thing on each file. So we need to plant an attribute on each text element
+                    in the source files because there are MULTIPLE <text> elements. 
+                    We will do this with a nice identity transformation so we don't go blind!
+              -->
+                
                 <xsl:apply-templates select="$immortalColl//text">
-                    <xsl:sort select="(front//titlePart[1])/@n ! number()"/>
+                    <xsl:sort select="child::front//titlePart[@n][1]/@n ! xs:integer(.)" order="ascending"/>
                 </xsl:apply-templates>
                 
                 
