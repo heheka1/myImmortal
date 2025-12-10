@@ -29,7 +29,6 @@
               </nav>
           </head>  
             <body>
-                
                 <h1>My Immortal, as edited by us!</h1>
                 
                 <h2>About this edition</h2>
@@ -46,12 +45,18 @@
               -->
                 
                 <xsl:apply-templates select="$immortalColl//text">
-                    <xsl:sort select="child::front//titlePart[@n][1]/@n ! xs:integer(.)" order="ascending"/>
+                    <xsl:sort select="@n ! xs:integer(.)"/>
                 </xsl:apply-templates>
                 
                 
             </body>
         </html>
+    </xsl:template>
+    <xsl:template match="text">
+        <section id="chap-{@n}" class="chapter">
+            <xsl:apply-templates/>
+        </section>
+        
     </xsl:template>
     
     <xsl:template match="titleStmt" mode="top">
@@ -77,12 +82,7 @@
     <xsl:template match="docTitle">
         <h2><xsl:apply-templates/></h2>
     </xsl:template>
-    <xsl:template match="text">
-        <section>
-            <xsl:apply-templates/>
-        </section>
-        
-    </xsl:template>
+    
     <xsl:template match="p">
         <p>
             <xsl:apply-templates/>
