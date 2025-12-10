@@ -27,10 +27,10 @@
          </sourceDesc>
       </fileDesc>
    </teiHeader>
-   <text>
+   <text n="0">
       <front>
          <docTitle>
-            <titlePart n="1"> Intro</titlePart>
+            <titlePart> Intro</titlePart>
          </docTitle>
          <head place="top">By: xXMidnightEssenceXx DISCLAIMER: I DID NOT WRITE THIS The infamous
             WORST FANFICTION EVER posted here, unedited, for ur "lulz" -Originally by Tara Gilesbie
@@ -68,12 +68,12 @@
             (dot) com</p>
       </body>
    </text>
-   <text>
+   <text n="1">
       <front>
-       <!--  <docTitle>
+       <docTitle>
             <titlePart>2. Chapters 1 &amp; 2</titlePart>
-         </docTitle>-->
-         <head>Chapters 1 &amp; 2 Chapter 1. AN: Special <w norm="thanks">fangz</w> (get it, coz
+         </docTitle>
+         <head>Chapter 1. AN: Special <w norm="thanks">fangz</w> (get it, coz
             Im <w norm="gothic">goffik</w>) <w norm="to">2</w> my gf (ew not in that way)
             raven, bloodytearz666 <w norm="for">4</w> helpin me wif <w norm="the">da</w> story
             and spelling. <w norm="you">U </w><w norm="rock">rok!</w> Justin ur da luv of my
@@ -100,7 +100,16 @@
             away.</p>
          <p>
             <note place="end">AN: IS it good? PLZ tell me fangz!</note></p>
-         <p><note type="start">Chapter 2. AN: Fangz 2 bloodytearz666 <w norm="for">4</w> <w norm="helping">helpin</w> me <w norm="with">wif</w> <w norm="the">da</w> <w norm="chapter">chapta</w>! <w norm="by the way">BTW</w>
+      </body>
+         </text>
+   <text n="2">
+      <front>
+         <docTitle>
+            <titlePart>Chapter 2</titlePart>
+         </docTitle>
+      </front>
+       <body>
+         <p><note type="start">AN: Fangz 2 bloodytearz666 <w norm="for">4</w> <w norm="helping">helpin</w> me <w norm="with">wif</w> <w norm="the">da</w> <w norm="chapter">chapta</w>! <w norm="by the way">BTW</w>
                <w norm ="non goth">preps</w> stop <w norm="insulting">flaming</w> ma story ok!</note> The next day I woke
             up in my bedroom. It was snowing and raining again. I opened the door of my coffin and
             drank some blood from a bottle I had. My coffin was black ebony and inside it was hot

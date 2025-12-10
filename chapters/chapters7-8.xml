@@ -21,10 +21,10 @@
          </sourceDesc>
       </fileDesc>
   </teiHeader>
-  <text>
+  <text n="7">
      <front>
         <docTitle>
-           <titlePart n="4">Chapters 7 to 9</titlePart>
+           <titlePart>Chapter 7</titlePart>
         </docTitle>
         <head place="top">Re-poster's Note: I also forgot to mention that you should read some of the commentaries people write here, they're hilarious!
            Chapter 7. Bring me <w norm="to">2</w> life. 
@@ -57,7 +57,10 @@
          <p><said who="Ebony">VAMPIRE POTTER, YOU <rs type="swear">MOTHERFUCKER</rs>!</said> I yelled.</p>
       </body>
   </text>
-   <text>
+   <text n="8">
+      <front><docTitle>
+         <titlePart>Chapter 8</titlePart>
+      </docTitle></front>
       <body>
  <p>      
  <note place="start"><p>Chapter 8</p>
@@ -90,11 +93,5 @@
             I had lost my <w norm="virginity">virility</w> to Draco and then I started to <w norm="burst">bust</w> into tears.</p>
       </body>    
    </text>
-   <text>
-      <body>
-         <note></note>
-            <p></p>
-        
-      </body>
-   </text>
+   
 </TEI>

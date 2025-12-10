@@ -20,10 +20,10 @@
          </sourceDesc>
       </fileDesc>
         </teiHeader>
-        <text>
+        <text n="3">
            <front>
               <docTitle>
-                 <titlePart n="2">Chapter 3 &amp; 4</titlePart>
+                 <titlePart>Chapter 3</titlePart>
               </docTitle>
            </front>
       <body>
@@ -57,7 +57,12 @@
             but Draco didn't go back into Hogwarts, instead he drove the car into… the Forbidden Forest! </p>
       </body>
         </text>
-   <text>
+   <text n="4">
+      <front>
+         <docTitle>
+            <titlePart>Chapter 4</titlePart>
+         </docTitle>
+      </front>
       <body>
          <p><note place="start">Chapter 4. AN: I <w norm="said">sed</w> <w norm="stop">stup</w> flaming ok ebony's name is <w norm="Ebony">ENOBY</w> <w norm="not">nut</w> mary <w norm="so">su</w> OK! DRACO IS SOO IN <w norm="love">LUV</w> <w norm="with">wif</w> her <w norm="that">dat</w> he is acting <w norm="different">defrent</w>! 
                <w norm="they">dey</w>  <w norm="new">nu</w> <w norm="each other">eechodder</w> <w norm="before">before</w> ok!</note></p>
