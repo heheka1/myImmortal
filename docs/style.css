@@ -3,8 +3,6 @@ body {
     background-image: url("coffin2.png");
     font-family: "baskerville", "Courier New", monospace;
     color: lavender;
-    animation: moveIt 9s linear infinite;
-
 }
 .header {
     padding: 2em;
@@ -23,10 +21,7 @@ a:hover {
 a:link {
     color: darkred;
 }
-@keyframes moveIt {
-  from {background-position: bottom left;}
-  to {background-position: top right;}
-}
+
 section {
     background: indigo;
     width: 80%;
