@@ -23,12 +23,13 @@
                   
               </title>
               <link rel="stylesheet" href="style.css"/>
-              <nav>
-                  <a href="index.html">Home</a> | <a href="webCharacter.html">Character List</a> | <a href="myImmortalintro.html">Full Fanfiction</a> | <a href="markupStrat.html">Markup Strategy</a>
-                  | <a href="https://github.com/heheka1/myImmortal">Github</a> 
-              </nav>
+            
           </head>  
             <body>
+                <nav>
+                    <a href="index.html">Home</a> | <a href="webCharacter.html">Character List</a> | <a href="myImmortalintro.html">Full Fanfiction</a> | <a href="markupStrat.html">Markup Strategy</a>
+                    | <a href="https://github.com/heheka1/myImmortal">Github</a> 
+                </nav>
                 <h1>My Immortal, as edited by us!</h1>
                 
                 <h2>About this edition</h2>
