@@ -90,14 +90,16 @@
         </p>
     </xsl:template>
     <xsl:template match="name">
+        <xsl:variable name="forename" select="$characterList//*[@xml:id = current()/@ref]//forename/@type"/>
+        <xsl:variable name="surname" select="$characterList//*[@xml:id = current()/@ref]//surname/@type"/>
+        <xsl:variable name="nickname" select="$characterList//*[@xml:id = current()/@ref]//addName[@type='nickname']"/>
         
-        <span class="{name()}" 
-            title="{$characterList//*[@xml:id = current()/@ref]//forename/@type || ' ' ||
-            $characterList//*[@xml:id = current()/@ref]//surname/@type 
+        <a href="characterList.html#{current()}"><span class="{name()}" 
+            title="{$forename || ' ' || $surname || ', nickname: ' ||  $nickname
             }">
             <!-- ebb: This outputs the name of the element <span class="name"> in this case. -->
         <xsl:apply-templates/>
-        </span>
+        </span></a>
     </xsl:template>
     <xsl:template match="w">
         <span class="w"><xsl:apply-templates/></span>
