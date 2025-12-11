@@ -59,3 +59,17 @@ span.name{
      color: black;
      
 }
+section.flex {
+    width:100%;
+    
+}
+div.reading-view {width:75%; 
+float:left;}
+div.characterList {width:25%;
+height:30em;
+float:right;
+position:fixed;
+top:5em;
+right:5em;
+
+}

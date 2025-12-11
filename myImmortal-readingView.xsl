@@ -26,15 +26,18 @@
             
           </head>  
             <body>
-                <nav>
+               <div class="header"> <nav>
                     <a href="index.html">Home</a> | <a href="webCharacter.html">Character List</a> | <a href="myImmortal.html">Full Fanfiction</a> | <a href="markupStrat.html">Markup Strategy</a>
                     | <a href="https://github.com/heheka1/myImmortal">Github</a> 
-                </nav>
+                </nav></div>
                 <h1>My Immortal, as edited by us!</h1>
                 
                 <h2>About this edition</h2>
                 
           
+       <section class="flex"> 
+           
+           <div class="reading-view">    
             <xsl:apply-templates select="$introFile//teiHeader//titleStmt" mode="top">
                    <xsl:sort select="(following::text/front//titlePart[1])/@n"/>
                 </xsl:apply-templates>
@@ -48,7 +51,14 @@
                 <xsl:apply-templates select="$immortalColl//text">
                     <xsl:sort select="@n ! xs:integer(.)"/>
                 </xsl:apply-templates>
-                
+                </div>
+           <div class="characterList">
+               
+               <iframe name="characterList" id="characterList" src="characterList.html" width="100%" height="100%"/>
+               
+           </div>
+
+       </section>
                 
             </body>
         </html>
@@ -94,7 +104,7 @@
         <xsl:variable name="surname" select="$characterList//*[@xml:id = current()/@ref]//surname/@type"/>
         <xsl:variable name="nickname" select="$characterList//*[@xml:id = current()/@ref]//addName[@type='nickname']"/>
         
-        <a href="characterList.html#{current()}"><span class="{name()}" 
+        <a href="characterList.html#{current()}" target="characterList"><span class="{name()}" 
             title="{$forename || ' ' || $surname || ', nickname: ' ||  $nickname
             }">
             <!-- ebb: This outputs the name of the element <span class="name"> in this case. -->
