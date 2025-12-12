@@ -26,42 +26,43 @@
             <section>  
                 <h1><xsl:apply-templates select="descendant::titleStmt/title"/></h1>
               
-                <xsl:apply-templates select="descendant::body"/>
-                
-            
+                <table>
+                    <tr>
+                        <th>Name(s)</th>
+                        <th>Nickname</th>
+                        <th>Note</th>
+                    </tr>
+                    <xsl:apply-templates select="descendant::person">
+                        <xsl:sort select="descendant::person/surname/@type"/>
+                    </xsl:apply-templates>
+                </table>
             </section>
             </body>  
         </html>
     </xsl:template>
     
-   <xsl:template match="listPerson">
-       <ul>
-           <xsl:apply-templates>
-               <xsl:sort select="person/surname/@type"/>
-           </xsl:apply-templates>
-       </ul>
-   </xsl:template>
-    
+ 
     <xsl:template match="person">
-      <li id="{@xml:id}">
-          <strong><xsl:value-of select="descendant::forename/@type || ' ' || descendant::surname/@type"/></strong><xsl:value-of select="', ' || descendant::roleName/@type"/>
-          <xsl:if test="descendant::addName">
+      <tr id="{@xml:id}">
+          
+          <td><strong><xsl:value-of select="descendant::forename/@type 
+                      || ' ' || descendant::surname/@type"/></strong>
+            <xsl:value-of select="', ' || descendant::roleName/@type"/></td> 
+         <td> <xsl:if test="descendant::addName">
               <xsl:value-of select=" ' Additional Name (' || descendant::addName/@type || ') '"/>
               <xsl:apply-templates select="descendant::addName"/>
-          </xsl:if>
+          </xsl:if></td>
          
           
-              <xsl:for-each select="descendant::note">
+          <td>    <xsl:for-each select="descendant::note">
                   <xsl:if test="current() ! string-length() gt 1">
                   <p><strong><xsl:value-of select="current()/@type || ': '"/></strong>
-                  <xsl:apply-templates select="current()"/>
-                  
-              </p>
+                  <xsl:apply-templates select="current()"/></p>
                   </xsl:if>
-              </xsl:for-each>
+              </xsl:for-each></td>
               
           
-      </li>
+      </tr>
         
         
     </xsl:template>

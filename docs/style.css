@@ -65,11 +65,18 @@ section.flex {
 }
 div.reading-view {width:75%; 
 float:left;}
-div.characterList {width:25%;
+
+/* 2025-12-11 ebb: Added styling for iframe and tables for displaying the characterList.html */
+iframe {width:25%;
 height:30em;
 float:right;
 position:fixed;
 top:5em;
 right:5em;
-
+}
+table, th, td {
+  border: 1px solid black;
+}
+ tr:nth-child(even) {
+  background-color: black;
 }

@@ -52,11 +52,11 @@
                     <xsl:sort select="@n ! xs:integer(.)"/>
                 </xsl:apply-templates>
                 </div>
-           <div class="characterList">
+         \
                
-               <iframe name="characterList" id="characterList" src="characterList.html" width="100%" height="100%"/>
+               <iframe name="characterList" id="characterList" src="characterList.html"/>
                
-           </div>
+          
 
        </section>
                 
@@ -104,9 +104,20 @@
         <xsl:variable name="surname" select="$characterList//*[@xml:id = current()/@ref]//surname/@type"/>
         <xsl:variable name="nickname" select="$characterList//*[@xml:id = current()/@ref]//addName[@type='nickname']"/>
         
-        <a href="characterList.html#{current()}" target="characterList"><span class="{name()}" 
-            title="{$forename || ' ' || $surname || ', nickname: ' ||  $nickname
-            }">
+        <xsl:variable name="tooltip">
+        <xsl:choose>
+            <xsl:when test="$characterList//*[@xml:id = current()/@ref]//addName[@type='nickname']">
+                <xsl:value-of select="$forename || ' ' || $surname || ', nickname: ' ||  $nickname"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of select="$forename || ' ' || $surname"/>
+            </xsl:otherwise>
+        </xsl:choose>
+            
+        </xsl:variable>
+        
+        <a href="characterList.html#{current()/@ref}" target="characterList"><span class="{name()}" 
+            title="{$tooltip}">
             <!-- ebb: This outputs the name of the element <span class="name"> in this case. -->
         <xsl:apply-templates/>
         </span></a>
