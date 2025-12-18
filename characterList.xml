@@ -288,6 +288,16 @@
                </person>
             </listPerson>
             <listPerson>
+               <person xml:id="KC" sex="M" age="27">
+                  <persName>
+                     <forename role="real" type="Kurt"/>
+                     <surname role="real" type="Cobain"/>
+                     <roleName type="real"/>
+                     <note type="misspelling"/>
+                  </persName>
+               </person>
+            </listPerson>
+            <listPerson>
                <person xml:id="AL" sex="F" age="43">
                   <persName>
                      <forename role="real" type="Amy"/>

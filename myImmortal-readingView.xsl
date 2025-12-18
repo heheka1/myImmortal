@@ -26,15 +26,18 @@
             
           </head>  
             <body>
-                <nav>
-                    <a href="index.html">Home</a> | <a href="webCharacter.html">Character List</a> | <a href="myImmortalintro.html">Full Fanfiction</a> | <a href="markupStrat.html">Markup Strategy</a>
+               <div class="header"> <nav>
+                    <a href="index.html">Home</a> | <a href="webCharacter.html">Character List</a> | <a href="myImmortal.html">Full Fanfiction</a> | <a href="markupStrat.html">Markup Strategy</a>
                     | <a href="https://github.com/heheka1/myImmortal">Github</a> 
-                </nav>
+                </nav></div>
                 <h1>My Immortal, as edited by us!</h1>
                 
                 <h2>About this edition</h2>
                 
           
+       <section class="flex"> 
+           
+           <div class="reading-view">    
             <xsl:apply-templates select="$introFile//teiHeader//titleStmt" mode="top">
                    <xsl:sort select="(following::text/front//titlePart[1])/@n"/>
                 </xsl:apply-templates>
@@ -48,7 +51,14 @@
                 <xsl:apply-templates select="$immortalColl//text">
                     <xsl:sort select="@n ! xs:integer(.)"/>
                 </xsl:apply-templates>
-                
+                </div>
+         \
+               
+               <iframe name="characterList" id="characterList" src="characterList.html"/>
+               
+          
+
+       </section>
                 
             </body>
         </html>
@@ -90,14 +100,27 @@
         </p>
     </xsl:template>
     <xsl:template match="name">
+        <xsl:variable name="forename" select="$characterList//*[@xml:id = current()/@ref]//forename/@type"/>
+        <xsl:variable name="surname" select="$characterList//*[@xml:id = current()/@ref]//surname/@type"/>
+        <xsl:variable name="nickname" select="$characterList//*[@xml:id = current()/@ref]//addName[@type='nickname']"/>
         
-        <span class="{name()}" 
-            title="{$characterList//*[@xml:id = current()/@ref]//forename/@type || ' ' ||
-            $characterList//*[@xml:id = current()/@ref]//surname/@type 
-            }">
+        <xsl:variable name="tooltip">
+        <xsl:choose>
+            <xsl:when test="$characterList//*[@xml:id = current()/@ref]//addName[@type='nickname']">
+                <xsl:value-of select="$forename || ' ' || $surname || ', nickname: ' ||  $nickname"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of select="$forename || ' ' || $surname"/>
+            </xsl:otherwise>
+        </xsl:choose>
+            
+        </xsl:variable>
+        
+        <a href="characterList.html#{current()/@ref}" target="characterList"><span class="{name()}" 
+            title="{$tooltip}">
             <!-- ebb: This outputs the name of the element <span class="name"> in this case. -->
         <xsl:apply-templates/>
-        </span>
+        </span></a>
     </xsl:template>
     <xsl:template match="w">
         <span class="w"><xsl:apply-templates/></span>
