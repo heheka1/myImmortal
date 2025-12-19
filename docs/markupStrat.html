@@ -2,12 +2,14 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css" />
-        <title>Markup Strategy</title>
+        <title>Markup Strategy and Data Findings</title>
+        
     </head>
     <body>
         <div class="header">
+            
             <nav>
-                <a href="index.html">Home</a> | <a href="webCharacter.html">Character List</a> | <a href="myImmortal.html">Full Fanfiction</a> | <a href="markupStrat.html">Markup Strategy</a>
+                <a href="index.html">Home</a> | <a href="webCharacter.html">Character List</a> | <a href="myImmortal.html">Full Fanfiction</a> | <a href="markupStrat.html">Markup Strategy and Data Findings</a>
                 | <a href="https://github.com/heheka1/myImmortal">Github</a> 
             </nav>
         </div>
@@ -25,7 +27,7 @@
                 different ways. One way was by creating a XML id for each character, so whenever we
                 found the character mentioned in the story, we would tag them with their unique id.
                 In addition, whenever there was dialogue, we would mark who was speaking with the
-                tag "said" and then use the attribute "who" to indicate the speaker . We also
+                tag "said" and then use the attribute "who" to indicate the speaker =. We also
                 created a character list that maps out all the characters mentioned, any nicknames
                 they have in the story, and mispellings of their names.</p>
             <img class="saidTag" src="saidTag.png"
@@ -35,8 +37,35 @@
             <p>The author writes detailed descriptions of the clothing characters wear, though the
                 character they do this most often is the protagonist. We marked whenever one of
                 these descriptions happen with the "reference string" tag and the attrbute "fashion"
-                (rs type="fashion" to do this markup </p>
+                (rs type="fashion") to do this markup </p>
             <img src="fashionTag.png" alt="image of an xml tag that says rs type= fashion" />
+            <p> We also used the rs tag to mark any swearing that was done in the fanfiction, we would switch the tag from "fashion" to "swear."
+            </p>
+            <h3>Transferring XML Documents into HTML</h3>
+            <p>We ultilized XSLT to transfer all of the xml documents of the fanfiction we marked up into HTML in order to put them onto this website.
+            We did this by creating a collection of all of our My Immortal XML documents in XSLT. Each chapter of My Immortal that we have is divided by a text element. So, we were able to make sure that 
+            the chapters were shown in the correct order on the website by adding an "n" attribute to each text element. We also created a class element for all of the 
+            name tags that we created and in our css we made it so that in the reading view of our website every time a character is first mentioned in a chapter, their 
+            name is highlighted. We also have a small view of our character list that people can reference while they read the fanfiction.</p>
+            
+        </section>
+        <section>
+            <h1>Data Findings</h1>
+            <p> These numbers are not conclusive. Due to time restraints we were unable to properly markup all 44 chapters of the fanfiction, but from what we did markup, 
+                these were the numbers that we got. We planned on using XSLT code to count the tags up and create a table, but once again, we ran out of time to do so.
+                So, instead, we used x path to count up the tags and the table below is what we found.</p>
+            <table>
+                <tr>
+                    <td>Mispellings </td> 
+                    <td>Swearing</td>
+                    <td>Description of Fashion</td>                   
+               </tr>
+                <tr>
+                    <td>1,414</td>
+                    <td>104</td>
+                    <td>46</td>                  
+                </tr>
+            </table>         
         </section>
     </body>
     
